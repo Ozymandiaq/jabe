@@ -20,6 +20,20 @@
             <div class="container">
                 <div class="basketBox">
                     <div class="basketList">
+                        <div class="basketListDate">
+                            <div class="basketListDateCity">
+                                <div class="basketListCity">Город:</div>
+                                <div class="basketCity">Алматы</div>
+                            </div>
+                            <div class="basketListDateFrom">
+                                <div class="basketListDateFromText">Дата от:</div>
+                                <!--DATE PICKER-->
+                            </div>
+                            <div class="basketListDateUntil">
+                                <div class="basketListDateUntilText">Дата до:</div>
+                                <!--DATE PICKER-->
+                            </div>
+                        </div>
                         <div class="basketTable">
                             <table>
                                 <tr>
