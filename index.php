@@ -13,8 +13,9 @@
                 
             <div class="slider owl-carousel" id="slider">
                 <div class="item"><img src="assets/img/banner.png" alt="баннер"></div>
-                <div class="item" style="opacity: 0.5"><img src="assets/img/banner.png" alt="баннер"></div>
+                <div class="item" style="opacity: 0.9"><img src="assets/img/banner.png" alt="баннер"></div>
                 <div class="item"><img src="assets/img/banner.png" alt="баннер"></div>
+                <div class="item" style="opacity: 0.9"><img src="assets/img/banner.png" alt="баннер"></div>
             </div>
 
             <div class="sliderLbl">
@@ -32,10 +33,20 @@
                         <hr><div>▪</div>
                     </div>
                     <div class="sliderBtnText">
-                          Astana
+                          Almaty
                     </div>
                 </a>
                 <a class="mid owl-dot" href="#">
+                    <div class="sqr">
+                    </div>
+                    <div class="sliderBtnHr">
+                        <hr><div>▪</div>
+                    </div>
+                    <div class="sliderBtnText">
+                        Astana
+                    </div>
+                </a>
+                <a href="#" class="mid owl-dot">
                     <div class="sqr">
                     </div>
                     <div class="sliderBtnHr">
@@ -264,24 +275,8 @@
             </div>
             <div class="takeIt">
                 <img src="assets/img/back4trends.png" alt="фон">
-                <!-- <div class="formDekor">
-                    <div class="formDekor-1">
-                        <div class="formLine-1-1"></div>
-                        <div class="formSqr-1"></div>
-                        <div class="formSqrMid"></div>
-                        <div class="formSqr-1"></div>
-                        <div class="formLine-1-2"></div>
-                    </div>
-                    <div class="formDekorText"><span>Нет времени на организацию поездки?</span></div>
-                    <div class="formDekor-2">
-                        <div class="formLine-2-1"></div>
-                        <div class="formSqr-2"></div>
-                        <div class="formSqrMid"></div>
-                        <div class="formSqr-2"></div>
-                        <div class="formLine-2-2"></div>
-                    </div>
-                </div> -->
-                <form action="" method="get">
+                
+                <div class="form">
                     <div class="formDekorText" data-aos="zoom-in" data-aos-delay="500" data-aos-once="true">
                         <div class="lines_left">
                             <hr class="line_sm">
@@ -304,12 +299,8 @@
                         Нет времени на организацию поездки?
                     </div>
                     <span class="formSpan-2">Мы возьмем это на себя, продумав ваш отдых от А до Я!</span>
-                    <!-- <div class="input-form flex align-center">
-                        <input type="submit" placeholder="Имя" type="text">
-                        <input type="submit" placeholder="Телефон" type="tel">
-                    </div> -->
-                    <button class="borderAdd">ОТПРАВИТЬ</button>
-                </form>
+                    <button class="borderAdd openGuide">ОТПРАВИТЬ</button>
+                </div>
             </div>
         </section>
 
@@ -396,17 +387,7 @@
 
 
 
-            <!-- <div class=""><img src="assets/img/partnersItem.png" alt="img"></div> 
-            <div class=""><img src="assets/img/partnersItem.png" alt="img"></div>-->
-            <!--
-            <div class="partnersSlider">
-                <div class="slider owl-carousel" id="slider">
-                    <img src="assets/img/rixos.png" alt="rixos">
-                    <img src="assets/img/ramada.png" alt="ramada">
-                    <img src="assets/img/rixos.png" alt="rixos">
-                    <img src="assets/img/ramada.png" alt="ramada">
-                </div>
-            </div> -->
+            
 
 
         </section>
@@ -414,23 +395,7 @@
         <section id="page-1-6">
             <div class="takeIt">
                 <img src="assets/img/back4form.png" alt="фон для формы">
-                <!-- <div class="formDekor-1">
-                    <div class="formLine-1-1"></div>
-                    <div class="formSqr-1"></div>
-                    <div class="formSqrMid"></div>
-                    <div class="formSqr-1"></div>
-                    <div class="formLine-1-2"></div>
-                </div>
-                <!-- <div class="formDekorText">
-                    <span id="formSpan-1">Нет времени на организацию поездки?</span>
-                </div>
-                <div class="formDekor-2">
-                    <div class="formLine-2-1"></div>
-                    <div class="formSqr-2"></div>
-                    <div class="formSqrMid"></div>
-                    <div class="formSqr-2"></div>
-                    <div class="formLine-2-2"></div>
-                </div> -->
+                
                 <form action="#" method="get">
                     <div style="color:transparent" class="formDekorText unselectable" data-aos="zoom-in" data-aos-delay="300" data-aos-once="true">
                         <div class="lines_left">
@@ -462,6 +427,30 @@
                 </form>
             </div>
         </section>
+            <div style="height:16em" class="popupGuide">
+                <div class="popupGiudeCloseBtn">
+                    <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
+                </div>
+                
+                <div class="popupGuideText gradient-title">                                    
+                    <div class="popupGuideTextBottom">
+                        Пожалуйста, оставьте контакты, чтобы<br>
+                        мы могли связаться с Вами
+                    </div>
+                </div>
+                <div class="popupGuideForm">
+                    <form action="#" method="post">
+                        <div>
+                            <input placeholder="Имя" type="text">
+                        </div>
+                        <div>
+                            <input placeholder="Телефон" type="tel">
+                        </div>
+                        <button type="submit" class="borderAdd openGuide">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+            <div class="popupGuideBack"></div>
 
     </body>
     </html>

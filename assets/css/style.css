@@ -157,6 +157,88 @@ body{
     /* opacity: 0.7; */
 }
 
+
+/*--------------------------------------PRELOADER--------------------------------------------------------------*/
+.preloader{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 374px;
+    height: 515px;
+    background-color: #ffffff;
+    background-image: linear-gradient(48deg, #000000 0%, #303030 50%, #000004 100%);
+    overflow: hidden;
+    z-index: 105;
+}
+
+.preloader:before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    top: 0%;
+    left: -80%;
+    background-color: grey;
+    filter: blur(30px);
+    transform: skewX(-30deg);
+    animation: preloader_flare 0.9s linear;
+}
+.preloaderActive:after{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    top: 0%;
+    left: -80%;
+    background-color: grey;
+    filter: blur(30px);
+    transform: skewX(-30deg);
+    animation: preloader_flare 0.9s linear;
+}
+
+.preloader_bg{
+    background-image: url(../img/preloader_bg.png);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 104;
+}
+
+.preloader_bg img{
+    width: 100%;
+}
+
+
+@keyframes preloader_flare{
+    from
+    {
+        left: -80%;
+    }
+    85%
+    {
+        top: 0%;
+        left: calc(100% + 80%);
+    }
+    90%
+    {
+        top: - 200%;
+        left: calc(100% + 80%);
+    }
+    95%
+    {
+        top: -200%;
+        left: -15%;
+    }
+    to
+    {
+        top: 0%;
+        left: -80%;
+    }
+}
 /*--------------------------------------GRADIENT-TEXT-STYLES--------------------------------------------------------------*/
 
 .gradientBannerSlider{
@@ -315,7 +397,7 @@ header{
     color: #ffffff;
     line-height: 1.5em;
     background: linear-gradient(to right, #3f3f3f, #000000);
-    z-index: 100;
+    z-index: 102;
 
 }
 .header-box{
@@ -532,6 +614,7 @@ header{
     background-color: #524729;
     margin: 1em;
     border-radius: 50%;
+    box-shadow: 3px -1px 3px 1px rgba(0, 0, 0, 0.16);
     text-align: center;
     position: relative;
     display: flex;
@@ -554,13 +637,10 @@ header{
 .language a{
     position: relative;
 }
-.link{
-        
+.link{        
     background-color: #524729;
     border-radius: 50%;       
     position: absolute;
-    
-        
 }
 
 .link-item {
@@ -569,6 +649,8 @@ header{
     margin-right: 1em;
     padding: 1em;
     position: relative;
+    box-shadow: 3px -1px 3px 1px rgba(0, 0, 0, 0.16);
+
 }
 
 .link-item:hover {    
@@ -587,39 +669,42 @@ header{
 
 .popupMenu{
     position: absolute;
-    top: -100%;
-    left: -100%;
+    top: -300%;
+    left: 0%;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: none;
     justify-content: center;
     margin: auto;
     font-family: "HelveticaThin";
     color: linear-gradient(to top, #e5e5e5 0%, #e5e5e5 1%, #858585 48%, #ffffff 100%);
     z-index: 101;
     overflow: hidden;
-    transition: 1s;
+    transition: 1s all;
     transform: scale(0);
 }
 .popupMenuActive{
     top: 0;
     left: 0%;
+    display: flex;
     transform: scale(1);
 }
 .popupMenuCloseBtn{
     width: 1.7em;
     height: 1.7em;
     position: absolute;
-    top: 1.5%;
+    top: 10%;
     left: 2.2%;
     border: 1px solid #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 103;
+    display: none;
 }
 .popupMenuCloseBtn img{
-    width: 50%;
+    width: 100%;
 }
 
 .menu-bg{
@@ -636,10 +721,13 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 7em 0em 0em 0em;
+    padding: 8.5em 0em 0em 0em;
 }
 .menuLogo{
     margin-bottom: 1em;
+}
+.menuLogo img{
+    width: 115%;
 }
 .menuItemPart{
     width: 62em;
@@ -653,6 +741,23 @@ header{
     width: 27em;
     margin: 1em 0;
 }
+
+.menuLinkHover{
+    transition: 1s all;
+}
+
+.menuLinkHover:hover{
+    background: linear-gradient(-3deg, #babc8d 0%, #babc8d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.menuItemRight:hover .menuLinkHoverBack{
+    background: #babc8d;
+}
+.menuItemLeft:hover .menuLinkHoverBack{
+    background: #babc8d;
+}
+
 .menuItemLine{
     display: flex;
     align-items: center;
@@ -676,7 +781,9 @@ header{
 }
 .menuItemText{
     font-size: 1.3em;
-
+}
+.menuItemRight:hover a{
+    color: #babc8d;
 }
 .mr{
     margin-right: 1em;
@@ -689,7 +796,7 @@ header{
     height: 1px;
     background-color: #ffffff;
     opacity: 0.5;
-    margin: 1em 0;
+    margin: 1em 0 1em;
 }
 .menuContacts{
     width: 71%;
@@ -818,14 +925,109 @@ header{
     padding: 1em;
     z-index: 2;
     opacity: 0.9;
+    overflow: hidden;
 }
-/* .text-box:before{
-    content: url(../img/logoBanner.png);
+
+.text-box:after{
+    content: '';
     position: absolute;
+    width: 70px;
+    height: 100%;
+    top: 0%;
+    left: -15%;
+    background-color: #ffffff;
+    filter: blur(30px);
+    transform: skewX(-30deg);
+    animation: flare 0.9s linear;
+}
+
+.flareActive:before{
+    content: '';
     position: absolute;
-    top: -10em;
-    right: 2em;
+    width: 70px;
+    height: 100%;
+    top: 0%;
+    left: -15%;
+    background-color: #ffffff;
+    filter: blur(30px);
+    transform: skewX(-30deg);
+    animation: flare 0.9s linear;
+}
+/* .text-box:after{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    top: 0%;
+    left: -15%;
+    background-color: #ffffff;
+    filter: blur(30px);
+    transform: skewX(-30deg);
+    animation: flareSecond 0.9s linear 1.5s;
+    transition: 1s;
 } */
+
+/* 
+animation: animateDot 4.1s linear infinite;
+    transition: 3s;
+} */
+/* .tourPartsImg:hover span{
+    animation: animateDot 2s linear infinite;
+    transition: 3s;
+} */
+
+@keyframes flare{
+    from
+    {
+        left: -15%;
+    }
+    85%
+    {
+        top: 0em;
+        left: 130%;
+    }
+    90%
+    {
+        top: -10em;
+        left: 130%;
+    }
+    95%
+    {
+        top: -10em;
+        left: -15%;
+    }
+    to
+    {
+        top: 0em;
+        left: -15%;
+    }
+}
+@keyframes flareSecond{
+    from
+    {
+        left: -20%;
+    }
+    85%
+    {
+        top: 0em;
+        left: 120%;
+    }
+    90%
+    {
+        top: -10em;
+        left: 120%;
+    }
+    95%
+    {
+        top: -10em;
+        left: -20%;
+    }
+    to
+    {
+        top: 0em;
+        left: -20%;
+    }
+}
     
 .text-box h1{
     color: #fdfdfd;
@@ -874,8 +1076,8 @@ header{
     font-size: 1.5em;
     font-weight: bold;
     display: block;
-    right: 29%;
-    bottom: 4%;
+    right: 28.2%;
+    bottom: 2.5%;
     
 }
 
@@ -887,8 +1089,8 @@ header{
     font-size: 1em;
     font-weight: 400;
     display: block;
-    right: 17.8%;
-    bottom: 5%;
+    right: 18.1%;
+    bottom: 2%;
     transform: rotate(-90deg);
 }
 
@@ -898,7 +1100,7 @@ header{
 }
 
 .sliderButtons .mid{
-    margin: 1.5em 0;
+    margin: 1em 0;
 }
 
 .sliderButtons .sqr{
@@ -1547,6 +1749,21 @@ text-transform: uppercase;
     align-items: center;
     justify-content: center;
 }
+.takeIt .form{
+    width: 61%;
+    height: 77%;
+    border: 1px solid #ffffff;
+    background: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .formDekor{
     display: flex;
     align-items: center;
@@ -1714,6 +1931,10 @@ text-transform: uppercase;
 .topImg img{
     width: 100%;
     margin: -2px 0;
+}
+
+.topImgM{
+    display: none;
 }
 
 .articleBox{
@@ -2572,6 +2793,9 @@ height: 21.4em;
     text-align: center;
     margin: 1em 0.15em 0em 0.15em;
 }
+.priceFromPrice:hover{
+    background-color: #5a0202;
+}
 .colorWhite{
     color: #ffffff;
 }
@@ -2807,6 +3031,20 @@ height: 21.4em;
     text-transform: uppercase;
 }
 
+.sub-tourInfoRight{
+    position: relative;
+}
+.stupDekor{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.stupDekor img{
+    
+    height: 100%;
+}
 
 .tourPartsBox{
     width: 92%;
@@ -2950,10 +3188,10 @@ height: 21.4em;
     animation: animateDot 4.1s linear infinite;
     transition: 3s;
 }
-.tourPartsImg:hover span{
+/* .tourPartsImg:hover span{
     animation: animateDot 2s linear infinite;
     transition: 3s;
-}
+} */
 
 @keyframes animateDot{
     0%
@@ -3150,6 +3388,23 @@ height: 21.4em;
 }
 
 .tourDesignForm form{
+    width: 61%;
+    height: 77%;
+    border: 1px solid;
+    border-image: linear-gradient(-3deg, #babc8b 0%, #55452c 100%);
+    border-image-slice: 1;
+    background: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tourDesignForm .form{
     width: 61%;
     height: 77%;
     border: 1px solid;
@@ -4079,6 +4334,14 @@ height: 21.4em;
     box-shadow: 0px 0px 7px black;
     position: relative;
     left: 1%;
+}
+.basketListDate{
+    display: flex;
+    justify-content: space-around;
+}
+.basketListDateCity{
+    display: flex;
+    justify-content: space-around;
 }
 .basketTable{
     width: 100%;

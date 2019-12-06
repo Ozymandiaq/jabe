@@ -13,12 +13,15 @@
     <link rel="stylesheet" type="text/css" href="assets/css/fonts.css"/>
 </head>
 
-<body>
+<body id="body">
+    <div id="preloader" class="preloader">
+        <img style="width: 60%;" class="jabeLogo" src="/assets/img/конь.png" alt="img">
+    </div>
+    <div id="preloader_bg" class="preloader_bg"></div>
+
+
 <!-- <img style="z-index: 99" src="bg.jpg" class="test">  -->
     <div class="popupMenu">
-        <div class="popupMenuCloseBtn">
-            <img src="assets/img/popupMenuCloseBtn.png" alt="img">
-        </div>
         <div class="menu-bg">
             <img src="assets/img/menu-bg.png" alt="img">
         </div>
@@ -29,52 +32,54 @@
                 <div class="menuItemPart mt">
                     <div class="menuItemLeft">
                         <div class="menuItemLine">
-                            <div class="itemLineDot mr"></div>
-                            <div class="itemLineDot mr"></div>
-                            <div class="itemLineDot mr"></div>
-                            <div class="itemLine"></div>                                
+                            <div class="itemLineDot mr menuLinkHoverBack"></div>
+                            <div class="itemLineDot mr menuLinkHoverBack"></div>
+                            <div class="itemLineDot mr menuLinkHoverBack"></div>
+                            <div class="itemLine menuLinkHoverBack"></div>                                
                         </div>
-                        <div class="menuItemText upper"><a href="about.php">О компании</a></div>
+                        <div class="menuItemText upper"><a class="gradient-title menuLinkHover" href="about.php">О компании</a></div>
                     </div>
                     <div class="menuItemRight">
-                        <div class="menuItemText upper"><a href="guides.php">Гиды</a></div>
+                        <div class="menuItemText upper"><a class="gradient-title menuLinkHover" href="guides.php">Гиды</a></div>
                         <div class="menuItemLine">
-                            <div class="itemLine"></div>                                
-                            <div class="itemLineDot ml"></div>
-                            <div class="itemLineDot ml"></div>
-                            <div class="itemLineDot ml"></div>
+                            <div class="itemLine menuLinkHoverBack"></div>                                
+                            <div class="itemLineDot ml menuLinkHoverBack"></div>
+                            <div class="itemLineDot ml menuLinkHoverBack"></div>
+                            <div class="itemLineDot ml menuLinkHoverBack"></div>
                         </div>
                     </div>
                 </div>
                 <div class="menuItemPart mb">
                     <div class="menuItemLeft">
                         <div class="menuItemLine">
-                            <div class="itemLineDot mr"></div>
-                            <div class="itemLineDot mr"></div>
-                            <div class="itemLineDot mr"></div>
-                            <div class="itemLine"></div>                                
+                            <div class="itemLineDot mr menuLinkHoverBack"></div>
+                            <div class="itemLineDot mr menuLinkHoverBack"></div>
+                            <div class="itemLineDot mr menuLinkHoverBack"></div>
+                            <div class="itemLine menuLinkHoverBack"></div>                                
                         </div>
-                        <div class="menuItemText upper"><a href="articles.php">Jabe журнал</a></div>
+                        <div class="menuItemText upper"><a class="gradient-title menuLinkHover" href="articles.php">Jabe журнал</a></div>
                     </div>
                     <div class="menuItemRight">
-                        <div class="menuItemText upper"><a href="contacts.php">Контакты</a></div>
+                        <div class="menuItemText upper"><a class="gradient-title menuLinkHover" href="contacts.php">Контакты</a></div>
                         <div class="menuItemLine">
-                            <div class="itemLine"></div>                                
-                            <div class="itemLineDot ml"></div>
-                            <div class="itemLineDot ml"></div>
-                            <div class="itemLineDot ml"></div>
+                            <div class="itemLine menuLinkHoverBack"></div>                                
+                            <div class="itemLineDot ml menuLinkHoverBack"></div>
+                            <div class="itemLineDot ml menuLinkHoverBack"></div>
+                            <div class="itemLineDot ml menuLinkHoverBack"></div>
                         </div>
                     </div>                        
                 </div>
             </div>
-            <div class="menuLine"></div>
-            <div class="menuContacts"><img src="assets/img/menuFooter.png" alt="img"></div>
         </div>
     </div>
-<header>
-
-    
+    <div class="popupGuideBack"></div>
+<header id="header">    
     <div class="header-box">
+        <div class="popupMenuCloseBtn">
+            <a href="#">
+                <img src="assets/img/popupMenuCloseBtn.png" alt="img">
+            </a>
+        </div>
         <div class="menu openMenu">
             <a href="#">
                 <div class="menuItem"></div>

@@ -1,3 +1,18 @@
+window.onload = function(){
+    let preloader = document.getElementById('preloader');
+    let preloader_bg = document.getElementById('preloader_bg');
+    preloader.style.display = 'none';
+    preloader_bg.style.display = 'none';
+};
+
+setInterval(function () {
+    $('.preloader').addClass('preloaderActive');
+    setTimeout(function () {
+        $('.preloader').removeClass('preloaderActive');
+    },1000)
+}, 2500);
+
+
 $(document).ready(function () {
    
     var one = true;
@@ -205,9 +220,16 @@ $(window).scroll(function(){
 $('.openMenu').click(function(){
     $('.popupMenu').css({top: $(window).scrollTop() + 0 }).addClass('popupMenuActive');
     $('.popupGuideBack').fadeIn();
+    $('header').css({background: 'none'});
+    $('.menu').css({display: 'none'})
+    $('.popupMenuCloseBtn').css({display: 'flex'})
 
-    $('.popupMenuCloseBtn').click(function(){
+    $('.popupGuideBack, .popupMenuCloseBtn').click(function(){
         $('.popupMenu').removeClass('popupMenuActive');
+        $('.popupGuideBack').fadeOut();
+        $('header').css({background: 'linear-gradient(to right, #3f3f3f, #000000)'});
+        $('.menu').css({display: 'block'})
+        $('.popupMenuCloseBtn').css({display: 'none'})
     });
 });
 
@@ -215,6 +237,32 @@ $('.openMenu').click(function(){
 $(window).scroll(function(){
     $('.popupMenuActive').css({'top': $(window).scrollTop() + 0 })
 }).scroll();
+
+//-----------------------MAIN-POPUP--------------------
+
+$('.openGuide').click(function(){
+    $('.popupGuide').css({top: $(window).scrollTop() + 250 }).addClass('popupGuideActive');
+    $('.popupGuideBack').fadeIn();
+
+    $('.popupGuideBack, .popupGiudeCloseBtn').click(function(){
+        $('.popupGuide').css({top: - 3000}).removeClass('popupGuideActive');
+        $('.popupGuideBack').fadeOut();
+    });
+});
+
+
+$(window).scroll(function(){
+    $('.popupGuideActive').css({'top': $(window).scrollTop() + 250 })
+}).scroll();
+
+//------------------------FLARE REPEAT------------------
+setInterval(function () {
+    $('.text-box').addClass('flareActive');
+    setTimeout(function () {
+        $('.text-box').removeClass('flareActive');
+    },1000)
+}, 9000);
+
 
 
 

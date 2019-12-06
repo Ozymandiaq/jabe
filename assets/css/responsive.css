@@ -56,7 +56,7 @@
         align-items: center;
         position: relative;
         transform: translateX(-50%);
-        left: 43%;
+        left: 50%;
     }
     /*------------------HADER---------------------------*/
 
@@ -71,11 +71,23 @@
         background-position-x: 50%;
         background-position-y: 50%;
     }
-    
-    .aboutCompanyBox{
-        position: relative;
+    .topImgM{
+        display: block;
+        width: 100%;
+        line-height: 0;
     }
-    .ourWorkCitiesTitle{
+    .topImgM img{
+        width: 100%;
+    }
+    
+    .aboutCompanyBoxM{
+        position: relative;
+        height: 80em;
+    }
+    .aboutCompanyInfoM{
+        height: 80em;
+    }
+    .ourWorkCitiesTitleM{
         transform: translateX(-50%);
         left: 43.5%;
         font-size: 1.26em;
@@ -86,7 +98,6 @@
         left: -15%;
         width: 50%;
         font-size: 4.5em;
-
     }
 
 }

@@ -88,7 +88,7 @@
                 </div>
                 <div class="myTripsMid"><span>Те же локации, но красочнее эмоции.</span></div>
                 <div class="myTripsBottom">
-                    <button class="borderAdd">
+                    <button class="borderAdd openGuide">
                         <span>ОПТРАВИТЬСЯ В ПОЕЗДКУ</span>
                     </button>
                 </div>
@@ -129,6 +129,9 @@
                     </div>
 
                     <div class="sub-tourInfoRight">
+                        <div class="stupDekor"><img src="assets/img/stupDekor.png" alt="img"></div>
+                        
+
 
                     </div>
                 </div>
@@ -317,34 +320,13 @@
             </div>
 
             <div class="tourDesignForm">
-                <img src="assets/img/sub-tourFormBack.png" alt="фон">
-                <!-- <div class="formDekor">
-                    <div class="formDekor-1">
-                        <div class="formLine-1-1"></div>
-                        <div class="formSqr-1"></div>
-                        <div class="formSqrMid"></div>
-                        <div class="formSqr-1"></div>
-                        <div class="formLine-1-2"></div>
-                    </div>
-                    <div class="formDekorText"><span>Нет времени на организацию поездки?</span></div>
-                    <div class="formDekor-2">
-                        <div class="formLine-2-1"></div>
-                        <div class="formSqr-2"></div>
-                        <div class="formSqrMid"></div>
-                        <div class="formSqr-2"></div>
-                        <div class="formLine-2-2"></div>
-                    </div>
-                </div> -->
-                <form action="#" method="get">
+                <img src="assets/img/sub-tourFormBack.png" alt="фон">                
+                <div class="form">
                     <div class="formDekorText formText1" data-aos="zoom-in">Узнать больше</div>
                     <div class = "formText2">Получить обратный звонок</div>
                     <div class="formText3">от вашего персонального дизайнера путешествий JABE CONCIERGE</div>
-                    <!-- <div class="input-form flex align-center">
-                        <input type="submit" placeholder="Имя" type="text">
-                        <input type="submit" placeholder="Телефон" type="tel">
-                    </div> -->
-                    <button class="borderAdd">ОТПРАВИТЬСЯ В ПОЕЗДКУ</button>
-                </form>
+                    <button class="borderAdd openGuide">ОТПРАВИТЬСЯ В ПОЕЗДКУ</button>
+                </div>
             </div>
 
         </section>
@@ -429,10 +411,32 @@
                                 <div class="next_owl" ><a href="#"><img src="assets/img/rowToRight.png" alt="img"></a></div>
                             </div>
                     </div>
-                </div>
-       
-
+                </div>    
         </section>
+        <div style="height:16em" class="popupGuide">
+            <div class="popupGiudeCloseBtn">
+                <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
+            </div>
+            
+            <div class="popupGuideText gradient-title">                                    
+                <div class="popupGuideTextBottom">
+                    Пожалуйста, оставьте контакты, чтобы<br>
+                    мы могли связаться с Вами
+                </div>
+            </div>
+            <div class="popupGuideForm">
+                <form action="#" method="post">
+                    <div>
+                        <input placeholder="Имя" type="text">
+                    </div>
+                    <div>
+                        <input placeholder="Телефон" type="tel">
+                    </div>
+                    <button type="submit" class="borderAdd openGuide">ОТПРАВИТЬ</button>
+                </form>
+            </div>
+        </div>
+        <div class="popupGuideBack"></div>
 </body>
     </html>
 <?php include 'footer.php';?>

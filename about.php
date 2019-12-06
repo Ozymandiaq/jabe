@@ -9,6 +9,10 @@
             <img src="/assets/img/aboutTopImg.png" alt="img">
             <div></div>
         </div>
+        <div class="topImgM InMob">
+            <img src="/assets/img/mobile/aboutTopImgM.png" alt="img">
+            <div></div>
+        </div>
         <section id="aboutCompany-1">
 
             <div class="title noBack titleMob">
@@ -18,8 +22,8 @@
             </div>
 
             <div class="container">
-                <div class="aboutCompanyBox">
-                    <div class="aboutCompanyInfo">
+                <div class="aboutCompanyBox aboutCompanyBoxM">
+                    <div class="aboutCompanyInfo aboutCompanyInfoM">
                         <div class="aboutCompanyTitle aboutCompanyTitleMob">
                             <h2>JABE CONCIERGE (ДЖАБЕ КОНСЬЕРЖ)</h2>
                         </div>
@@ -33,21 +37,22 @@
                                     <div class="myTripsSqr op1"></div>
                                 </div>
                                 <hr class="line_long line_long_about">
-                            </div>
-                            
+                            </div>                            
                         </div>
+                        <div class="aboutCompanyInfoM">
                             <p>
-                            Это элитное подразделение международной компании - туроператора Jabe.<br>
-                            «Ребенок» амбициозного путешественника и бизнес-переводчика Гульжаны<br>
-                            Калиевой.  Туроператор Jabe организовывает мероприятия, конференции,<br>
-                            ивенты, закрытые вечеринки, туры, свадьбы в СНГ c 2016 года для клиентов из<br>
-                            других стран.<br>
-                            Исключительность и уникальность компании заключается в том, что она способна<br>
-                            отвечать ожиданиям клиентов с изысканными запросами. Jabe Concierge также<br>
-                            часто является субподрядчиком в СНГ для зарубежных ивент-организаций, чьи<br>
-                            клиенты весьма капризны. Jabe обращает внимание на самые маленькие детали<br>
-                            любой задачи и стремится превосходить ожидания гостей.
-                        </p>
+                                Это элитное подразделение международной компании - туроператора Jabe.<br>
+                                «Ребенок» амбициозного путешественника и бизнес-переводчика Гульжаны<br>
+                                Калиевой.  Туроператор Jabe организовывает мероприятия, конференции,<br>
+                                ивенты, закрытые вечеринки, туры, свадьбы в СНГ c 2016 года для клиентов из<br>
+                                других стран.<br>
+                                Исключительность и уникальность компании заключается в том, что она способна<br>
+                                отвечать ожиданиям клиентов с изысканными запросами. Jabe Concierge также<br>
+                                часто является субподрядчиком в СНГ для зарубежных ивент-организаций, чьи<br>
+                                клиенты весьма капризны. Jabe обращает внимание на самые маленькие детали<br>
+                                любой задачи и стремится превосходить ожидания гостей.
+                            </p>
+                        </div>
                         <div style="left: 36em; top: 1em;" class="formDekorText noInMob" data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" data-aos-offset="50">
                             <div class="lines_left">
                                 <hr style="right: 85%;" class="line_sm">
@@ -170,7 +175,7 @@
                         </div>  
                     <p>ВАШИ САМЫЕ ИЗЫСКАННЫЕ</p>
                     <span class="founderFormText">И КАПРИЗНЫЕ ЗАПРОСЫ ЖДУТ ЗДЕСЬ!</span><br>
-                    <button class="founderFormBtn borderAdd">
+                    <button class="founderFormBtn borderAdd openGuide">
                     <span>ОТПРАВИТЬСЯ В ПУТЕШЕСТВИЕ С JABE</span>
                     </button>
                 </div>
@@ -253,7 +258,7 @@
                     <div class="titleSpan gradient-title"><span>ГОРОДА, В КОТОРЫХ МЫ РАБОТАЕМ</span></div>
                     <div class="hr"><hr></div>
                 </div> -->
-                <div class="title noBack ourWorkCitiesTitle">
+                <div class="title noBack ourWorkCitiesTitle ourWorkCitiesTitleM">
                     <div class="hr"><hr></div>
                     <div class="titleSpan gradient-title"><span>ГОРОДА, В КОТОРЫХ МЫ РАБОТАЕМ</span></div>
                     <div class="hr"><hr></div>
@@ -329,16 +334,36 @@
                         </div>
                     </div>
                     <p>ЗАКАЖИТЕ ВОПЛОЩЕНИЕ ВАШИХ ИДЕЙ И ЖЕЛАНИЙ В JABE</p>
-                    <button class="founderFormBtn borderAdd">
+                    <button class="founderFormBtn borderAdd openGuide">
                         <span>ЗАКАЗАТЬ</span>
                     </button>
                 </div>
             </div>
         </section>
-
-
-
-
+        <div style="height:16em" class="popupGuide">
+            <div class="popupGiudeCloseBtn">
+                <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
+            </div>
+            
+            <div class="popupGuideText gradient-title">                                    
+                <div class="popupGuideTextBottom">
+                    Пожалуйста, оставьте контакты, чтобы<br>
+                    мы могли связаться с Вами
+                </div>
+            </div>
+            <div class="popupGuideForm">
+                <form action="#" method="post">
+                    <div>
+                        <input placeholder="Имя" type="text">
+                    </div>
+                    <div>
+                        <input placeholder="Телефон" type="tel">
+                    </div>
+                    <button type="submit" class="borderAdd openGuide">ОТПРАВИТЬ</button>
+                </form>
+            </div>
+        </div>
+        <div class="popupGuideBack"></div>
 </body>
     </html>
 
