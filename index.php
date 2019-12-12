@@ -4,7 +4,12 @@
     
     <body>
         <section id="page-1-1">
-            <div class="bannerImgDekor"> <img src="assets/img/back4textBanner1.png" alt="img"></div>
+            <div class="bannerImgDekor"> 
+                <img class="bannerDekorImg" src="assets/img/back4textBanner1.png" alt="img">
+                <div class="logoBanner">
+                    <img class="logoBannerImg" src="assets/img/logoBanner.png" alt="img">
+                </div>
+            </div>
             <!-- <div class="logoBanner"> <img src="assets/img/logoBanner.png" alt="img"></div> -->
     
             <div class="text-box">
@@ -43,7 +48,7 @@
                         <hr><div>▪</div>
                     </div>
                     <div class="sliderBtnText">
-                        Astana
+                        Nur-Sultan
                     </div>
                 </a>
                 <a href="#" class="mid owl-dot">
@@ -90,7 +95,7 @@
                     <div class="videoBlockInfo">
                         <div class="videoBlockTitle"><h3 class="gradient-1">ДЕЛОВОЙ ТУРИЗМ</h3></div>
                         <div class="videoBlockList videoBoxShadow">
-                            <div class="videoBlockListItem"><a href="#">Сделать больше <br> денег в СНГ</a></div>
+                            <div class="videoBlockListItem noHover"><a href="#">Сделать больше <br> денег в СНГ</a></div>
                             <div class="videoBlockListItem upper"><a href="#">Бизнес - консалтинг</a></div>
                             <div class="videoBlockListItem upper"><a href="#">Дизайн мероприятия</a></div>
                             <div class="videoBlockListItem upper nowrap"><a href="#">Корпоративы/Тимбилдинги</a></div>
@@ -124,7 +129,7 @@
                     <div class="videoBlockInfo">
                         <div class="videoBlockTitle videoBlockTitleRevers"><h3 class="gradient-1">Консьерж</h3></div>
                         <div class="videoBlockList videoBlockListRevers">
-                            <div class="videoBlockListItem"><a href="#">Экстраординарный <br> опыт</a></div>
+                            <div class="videoBlockListItem noHover"><a href="#">Экстраординарный <br> опыт</a></div>
                             <div class="videoBlockListItem upper"><a href="#">Вертолетные прогулки</a></div>
                             <div class="videoBlockListItem upper"><a href="#">Джанкет туры казино</a></div>
                             <div class="videoBlockListItem upper"><a href="#">Нужны эмоции</a></div>
@@ -139,7 +144,7 @@
                     <div class="videoBlockInfo">
                         <div class="videoBlockTitle"><h3 class="gradient-1">MICE</h3></div>
                         <div class="videoBlockList videoBoxShadow">
-                            <div class="videoBlockListItem"><a href="#">Организация деловых <br> поездок и мероприятий</a></div>
+                            <div class="videoBlockListItem noHover"><a href="#">Организация деловых <br> поездок и мероприятий</a></div>
                             <div class="videoBlockListItem upper"><a href="#">Переговоры</a></div>
                             <div class="videoBlockListItem upper"><a href="#">Мотивационные туры</a></div>
                             <div class="videoBlockListItem upper"><a href="#">Конференции</a></div>
@@ -173,7 +178,7 @@
                     <div class="videoBlockInfo">
                         <div class="videoBlockTitle videoBlockTitleRevers"><h3 class="gradient-1">Стильный туризм</h3></div>
                         <div class="videoBlockList videoBlockListRevers">
-                            <div class="videoBlockListItem"><a href="#">Те же ЛОКАЦИИ, <br> но красочнее ЭМОЦИИ</a></div>
+                            <div class="videoBlockListItem noHover"><a href="#">Те же ЛОКАЦИИ, <br> но красочнее ЭМОЦИИ</a></div>
                             <div class="videoBlockListItem upper"><a href="#">Большое алматинское озеро</a></div>
                             <div class="videoBlockListItem upper"><a href="#">Грязные багги</a></div>
                             <div class="videoBlockListItem upper"><a href="#">Казино</a></div>
@@ -215,7 +220,7 @@
                             <div class="basketPlus">
                                 <div><button class="btnBrown">Подробнее</button></div>
                                 <div class="basketPlusImg"> 
-                                    <a href="#">
+                                    <a href="basket.php">
                                         <img src="assets/img/basketPlus.png" alt="img">
                                         <img style="width: 30%; top: 58%;" src="assets/img/plus.png" alt="img">
                                     </a>
@@ -238,7 +243,7 @@
                             <div class="basketPlus">
                                 <div><button class="btnBrown">Подробнее</button></div>
                                 <div class="basketPlusImg"> 
-                                    <a href="#">
+                                    <a href="basket.php">
                                         <img src="assets/img/basketPlus.png" alt="img">
                                         <img style="width: 30%; top: 58%;" src="assets/img/plus.png" alt="img">
                                     </a>
@@ -250,7 +255,7 @@
                 <div class="trend-item trend-4">
                     <div class="shellAos-4" data-aos="fade-down" data-aos-delay="50">
                         <div class="trends-photo">
-                            <h4>ASTANA</h4>
+                            <h4>NUR-SULTAN</h4>
                             <img src="assets/img/trends-astana.png" alt="Астана">
                         </div>
                         <div class="trends-text">
@@ -260,7 +265,7 @@
                             <div class="basketPlus">
                                 <div><button class="btnBrown">Подробнее</button></div>
                                 <div class="basketPlusImg"> 
-                                    <a href="#">
+                                    <a href="basket.php">
                                         <img src="assets/img/basketPlus.png" alt="img">
                                         <img style="width: 30%; top: 58%;" src="assets/img/plus.png" alt="img">
                                     </a>

@@ -6,10 +6,10 @@
 <body>
     
 
-    <div class="footerBox">
+    <div class="footerBox noInMob">
 
         <div class="cities gradient-title">
-            <span>Астана</span>
+            <span>Нур-Султан</span>
             <span>Алматы</span>
             <span>Москва</span>
             <span>Баку</span>

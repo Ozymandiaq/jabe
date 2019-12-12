@@ -3,6 +3,7 @@ window.onload = function(){
     let preloader_bg = document.getElementById('preloader_bg');
     preloader.style.display = 'none';
     preloader_bg.style.display = 'none';
+    
 };
 
 setInterval(function () {
@@ -211,7 +212,7 @@ $('.openGuideAnastasiya').click(function(){
 
 
 $(window).scroll(function(){
-    $('.popupGuideActive').css({'top': $(window).scrollTop() + 140 })
+    $('.popupGuideActive').css({'top': $(window).scrollTop() + 100 })
 }).scroll();
 
 
@@ -266,14 +267,90 @@ setInterval(function () {
 
 
 
+//-----------------------------TOUR SLIDE HOVER----------------------------------------------
 
+var tourSlide = document.getElementById('tourItemSlide');
+document.getElementById('tourItemImg').addEventListener("mouseover", function(){tourSlide.style.left = "35%";
+this.addEventListener("mouseout", function(){tourSlide.style.left = "-14%";});
+});
 
+var tourSlide1 = document.getElementById('tourItemSlide1');
+document.getElementById('tourItemImg1').addEventListener("mouseover", function(){tourSlide1.style.left = "35%";
+this.addEventListener("mouseout", function(){tourSlide1.style.left = "-14%";});
+});
 
-function changeItem() {
-    document.getElementsByClass('').style.width = '200px';
-  }// функция, которая сработает при наведении.
-  //она означает - выбрать элемент к Id у которого надо что-то изменить.
-  // когда в скобки где написано one-two добавите Id своего элемента
-  function rechangeItem() {
-    document.getElementById('one-two').style.width = '100px';
-  }// тут всё также. но наобарот. протсес происходящий про отводе курсора.
+var tourSlide2 = document.getElementById('tourItemSlide2');
+document.getElementById('tourItemImg2').addEventListener("mouseover", function(){tourSlide2.style.left = "35%";
+this.addEventListener("mouseout", function(){tourSlide2.style.left = "-14%";});
+});
+
+var tourSlide3 = document.getElementById('tourItemSlide3');
+document.getElementById('tourItemImg3').addEventListener("mouseover", function(){tourSlide3.style.left = "35%";
+this.addEventListener("mouseout", function(){tourSlide3.style.left = "-14%";});
+});
+//--------------------------------------
+
+var tourSlide = document.getElementById('tourItemSlide');
+tourSlide.addEventListener("mouseover", function(){tourSlide.style.left = "35%";
+tourSlide.addEventListener("mouseout", function(){tourSlide.style.left = "-14%";});
+});
+
+var tourSlide1 = document.getElementById('tourItemSlide1');
+tourSlide1.addEventListener("mouseover", function(){tourSlide1.style.left = "35%";
+tourSlide1.addEventListener("mouseout", function(){tourSlide1.style.left = "-14%";});
+});
+
+var tourSlide2 = document.getElementById('tourItemSlide2');
+tourSlide2.addEventListener("mouseover", function(){tourSlide2.style.left = "35%";
+tourSlide2.addEventListener("mouseout", function(){tourSlide2.style.left = "-14%";});
+});
+
+var tourSlide3 = document.getElementById('tourItemSlide3');
+tourSlide3.addEventListener("mouseover", function(){tourSlide3.style.left = "35%";
+tourSlide3.addEventListener("mouseout", function(){tourSlide3.style.left = "-14%";});
+});
+//--------------------------------------
+
+//-----------------------------TOUR SLIDE MOB HOVER----------------------------------------------
+
+// var tourSlideM = document.getElementById('tourItemSlideM');
+// document.getElementById('tourItemImgM').addEventListener("mouseover", function(){tourSlideM.style.left = "40%";
+// this.addEventListener("mouseout", function(){tourSlideM.style.left = "-12.5%";});
+// });
+
+// var tourSlideM1 = document.getElementById('tourItemSlideM1');
+// document.getElementById('tourItemImgM1').addEventListener("mouseover", function(){tourSlideM1.style.left = "40%";
+// this.addEventListener("mouseout", function(){tourSlideM1.style.left = "-12.5%";});
+// });
+
+// var tourSlideM2 = document.getElementById('tourItemSlideM2');
+// document.getElementById('tourItemImgM2').addEventListener("mouseover", function(){tourSlideM2.style.left = "40%";
+// this.addEventListener("mouseout", function(){tourSlideM2.style.left = "-12.5%";});
+// });
+
+// var tourSlideM3 = document.getElementById('tourItemSlideM3');
+// document.getElementById('tourItemImgM3').addEventListener("mouseover", function(){tourSlideM3.style.left = "40%";
+// this.addEventListener("mouseout", function(){tourSlideM3.style.left = "-12.5%";});
+// });
+// //--------------------------------------
+
+// var tourSlideM = document.getElementById('tourItemSlideM');
+// tourSlideM.addEventListener("mouseover", function(){tourSlideM.style.left = "40%";
+// tourSlideM.addEventListener("mouseout", function(){tourSlideM.style.left = "-12.5%";});
+// });
+
+// var tourSlideM1 = document.getElementById('tourItemSlideM1');
+// tourSlideM1.addEventListener("mouseover", function(){tourSlideM1.style.left = "40%";
+// tourSlideM1.addEventListener("mouseout", function(){tourSlideM1.style.left = "-12.5%";});
+// });
+
+// var tourSlideM2 = document.getElementById('tourItemSlideM2');
+// tourSlideM2.addEventListener("mouseover", function(){tourSlideM2.style.left = "40%";
+// tourSlideM2.addEventListener("mouseout", function(){tourSlideM2.style.left = "-12.5%";});
+// });
+
+// var tourSlideM3 = document.getElementById('tourItemSlideM3');
+// tourSlideM3.addEventListener("mouseover", function(){tourSlideM3.style.left = "40%";
+// tourSlideM3.addEventListener("mouseout", function(){tourSlideM3.style.left = "-12.5%";});
+// });
+//--------------------------------------

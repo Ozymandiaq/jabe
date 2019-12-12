@@ -98,7 +98,7 @@
                                     <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
                                 </div>
                                 <div class="popupGuideImg">
-                                    <img src="/assets/img/popupGuideImg.png" alt="img">
+                                    <img src="/assets/img/popupGuideAzamat.jpg" alt="img">
                                 </div>
                                 <div class="popupGuideName">
                                     <div class="gradient-title">
@@ -155,7 +155,7 @@
                                     <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
                                 </div>
                                 <div class="popupGuideImg">
-                                    <img src="/assets/img/popupGuideImg.png" alt="img">
+                                    <img src="/assets/img/popupGuideAygerim.jpg" alt="img">
                                 </div>
                                 <div class="popupGuideName">
                                     <div class="gradient-title">
@@ -212,7 +212,7 @@
                                     <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
                                 </div>
                                 <div class="popupGuideImg">
-                                    <img src="/assets/img/popupGuideImg.png" alt="img">
+                                    <img src="/assets/img/popupGuideAylin.jpg" alt="img">
                                 </div>
                                 <div class="popupGuideName">
                                     <div class="gradient-title">
@@ -271,7 +271,7 @@
                                     <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
                                 </div>
                                 <div class="popupGuideImg">
-                                    <img src="/assets/img/popupGuideImg.png" alt="img">
+                                    <img src="/assets/img/popupGuideAlmat.jpg" alt="img">
                                 </div>
                                 <div class="popupGuideName">
                                     <div class="gradient-title">
@@ -328,7 +328,7 @@
                                     <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
                                 </div>
                                 <div class="popupGuideImg">
-                                    <img src="/assets/img/popupGuideImg.png" alt="img">
+                                    <img src="/assets/img/popupGuideAray.jpg" alt="img">
                                 </div>
                                 <div class="popupGuideName">
                                     <div class="gradient-title">
@@ -386,7 +386,7 @@
                                     <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
                                 </div>
                                 <div class="popupGuideImg">
-                                    <img src="/assets/img/popupGuideImg.png" alt="img">
+                                    <img src="/assets/img/popupGuideIlyas.jpg" alt="img">
                                 </div>
                                 <div class="popupGuideName">
                                     <div class="gradient-title">
@@ -446,7 +446,7 @@
                                     <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
                                 </div>
                                 <div class="popupGuideImg">
-                                    <img src="/assets/img/popupGuideImg.png" alt="img">
+                                    <img src="/assets/img/popupGuideMayra.jpg" alt="img">
                                 </div>
                                 <div class="popupGuideName">
                                     <div class="gradient-title">
@@ -482,7 +482,7 @@
                                     <div class="guidePhotoImg"><img src="/assets/img/guideStranger.png" alt="img"></div>
                                 </div>
                                 <div class="guideTextTop">
-                                    <div><span>---</span></div>
+                                    <div><span>МИРАС</span></div>
                                     <div><span>☆ 9,2</span></div>                            
                                 </div>
                                 <div class="guideTextBottom">
@@ -503,11 +503,11 @@
                                     <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
                                 </div>
                                 <div class="popupGuideImg">
-                                    <img src="/assets/img/popupGuideImg.png" alt="img">
+                                    <img src="/assets/img/popupGuideMiras.jpg" alt="img">
                                 </div>
                                 <div class="popupGuideName">
                                     <div class="gradient-title">
-                                        ---
+                                        Мирас
                                     </div>
                                 </div>
                                 <div class="popupGuideText gradient-title">                                    
@@ -559,7 +559,7 @@
                                     <img src="/assets/img/popupGiudeCloseBtn.png" alt="img">
                                 </div>
                                 <div class="popupGuideImg">
-                                    <img src="/assets/img/popupGuideImg.png" alt="img">
+                                    <img src="/assets/img/popupGuideAnastasiya.jpg" alt="img">
                                 </div>
                                 <div class="popupGuideName">
                                     <div class="gradient-title">

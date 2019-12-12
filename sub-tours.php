@@ -48,7 +48,7 @@
                                     </div>
                                 </div>
                                 <div class="basketAdd">
-                                    <a href="#">
+                                    <a href="basket.php">
                                         <img src="assets/img/basket.png" alt="img">
                                     </a>
                                 </div>
@@ -89,7 +89,7 @@
                 <div class="myTripsMid"><span>Те же локации, но красочнее эмоции.</span></div>
                 <div class="myTripsBottom">
                     <button class="borderAdd openGuide">
-                        <span>ОПТРАВИТЬСЯ В ПОЕЗДКУ</span>
+                        <span>ОТПРАВИТЬСЯ В ПОЕЗДКУ</span>
                     </button>
                 </div>
             </div>
@@ -106,30 +106,96 @@
                         <div class="sub-tourInfoLeftH3 gradient-title-2"><h3>Большое Алматинское озеро </h3></div>
                         <div class="sub-tourInfoLeftText">
                             <p>
-                                Большое Алматинское озеро - естественное альпийское водохранилище,<br>
-                                появившееся из-за землетрясения в горах Заилийского Алатау, окружено<br>
-                                тремя впечатляющими красотой горами. Именно ледники, тающие на<br>
-                                верхушках этих гор и создают Озеро. Талая природная вода является<br>
-                                основным источником питьевой воды для верхней части города Алматы.<br>
-                                Резервуар строго охраняется, туристам запрещается приближаться к<br>
-                                воде ближе чем за несколько метров, купание запрещено. Озеро условно<br>
-                                пролегает на границе между горами Кыргызстана и Казахстана, объект<br>
+                                Большое Алматинское озеро - естественное альпийское водохранилище,
+                                появившееся из-за землетрясения в горах Заилийского Алатау, окружено
+                                тремя впечатляющими красотой горами. Именно ледники, тающие на
+                                верхушках этих гор и создают Озеро. Талая природная вода является
+                                основным источником питьевой воды для верхней части города Алматы.
+                                Резервуар строго охраняется, туристам запрещается приближаться к
+                                воде ближе чем за несколько метров, купание запрещено. Озеро условно
+                                пролегает на границе между горами Кыргызстана и Казахстана, объект
                                 охраняется, всем навестившим озеро требуется иметь при себе паспорт.
                             </p>
                         </div>
                         <div class="sub-tourInfoLine"></div>
                         <div class="sub-tourInfoTegs">
                             <span>#алматы</span>
-                            <span>#активныйотдых</span>
-                            <span>#озеро</span>
-                            <span>#бао</span><br>
-                            <span>#большоеалматинскоеозеро</span>
-                            <span>#туризмалматы</span>
+                            <span style="font-size: 0.89em;">#активныйотдых</span>
+                            <span style="font-size: 0.92em;">#озеро</span>
+                            <span style="font-size: 0.92em;">#бао</span><br>
+                            <span style="font-size: 0.85em;">#большоеалматинскоеозеро</span>
+                            <span style="font-size: 0.86em;">#туризмалматы</span>
                         </div>
                     </div>
+                    
 
                     <div class="sub-tourInfoRight">
-                        <div class="stupDekor"><img src="assets/img/stupDekor.png" alt="img"></div>
+                        <div class="sub-tourInfoRightTop">
+                            <div class="sub-tourInfoRightTopCol">
+                                <div class="sub-tourInfoItem">
+                                    <div class="sub-tourInfoItemLeft sub-tourInfoItemLeftR"><img src="assets/img/stupDekoItemLeft.png" alt="img"></div>
+                                    <div class="sub-tourInfoItemRight">
+                                        <div class="s-tourInfoItemTitle gradient-title-2"> Подходит:</div>
+                                        <div class="s-tourInfoItemText s-tourInfoItemTextStup">для всех</div>
+                                    </div>
+                                </div>
+                                <div class="sub-tourInfoItem">
+                                    <div class="sub-tourInfoItemLeft sub-tourInfoItemLeftR"><img src="assets/img/stupDekoItemLeft.png" alt="img"></div>
+                                    <div class="sub-tourInfoItemRight">
+                                        <div class="s-tourInfoItemTitle gradient-title-2">Продолжительность:</div>
+                                        <div class="s-tourInfoItemText">около 4 часов</div>
+                                    </div>
+                                </div>
+                                <div class="sub-tourInfoItem">
+                                    <div class="sub-tourInfoItemLeft sub-tourInfoItemLeftR"><img src="assets/img/stupDekoItemLeft.png" alt="img"></div>
+                                    <div class="sub-tourInfoItemRight">
+                                        <div class="s-tourInfoItemTitle gradient-title-2">Рекомендации:</div>
+                                        <div class="s-tourInfoItemText">Удобная обувь</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="sub-tourInfoRightTopCol">
+                                <div class="sub-tourInfoItem sub-tourInfoItemR">
+                                    <div class="sub-tourInfoItemRight sub-tourInfoItemRightR">
+                                        <div class="s-tourInfoItemTitle gradient-title-2">Сезон:</div>
+                                        <div class="s-tourInfoItemText">Всесезонный, затруднительно с декабря<br> по март из- за скользкой дороги</div>
+                                    </div>
+                                    <div class="sub-tourInfoItemLeft"><img src="assets/img/stupDekoItemRight.png" alt="img"></div>
+                                </div>
+                                <div class="sub-tourInfoItem sub-tourInfoItemR">
+                                    <div class="sub-tourInfoItemRight sub-tourInfoItemRightR">
+                                        <div class="s-tourInfoItemTitle gradient-title-2">Максимальное количество людей:</div>
+                                        <div class="s-tourInfoItemText">16 человек</div>
+                                    </div>
+                                    <div class="sub-tourInfoItemLeft"><img src="assets/img/stupDekoItemRight.png" alt="img"></div>
+                                </div>
+                                <div class="sub-tourInfoItem sub-tourInfoItemR">
+                                    <div class="sub-tourInfoItemRight sub-tourInfoItemRightR">
+                                        <div class="s-tourInfoItemTitle gradient-title-2">Обязательно иметь c собой:</div>
+                                        <div class="s-tourInfoItemText">Паспорт</div>
+                                    </div>
+                                    <div class="sub-tourInfoItemLeft"><img src="assets/img/stupDekoItemRight.png" alt="img"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sub-tourInfoRightBottom">
+                            <div class="sub-tourInfoItem">
+                                <div class="sub-tourInfoItemLeft  sub-tourInfoItemLeftR"><img src="assets/img/stupDekoItemLeft.png" alt="img"></div>
+                                <div class="sub-tourInfoItemRight">
+                                    <div class="s-tourInfoItemTitle gradient-title-2">В зимнее время рекомендуем взять:</div>
+                                    <div class="s-tourInfoItemInfo">
+                                        <div class="s-tourInfoItemText s-tourInfoItemTextB">Шапку</div>
+                                        <div class="s-tourInfoItemText s-tourInfoItemTextB">Перчатки</div>
+                                        <div class="s-tourInfoItemText s-tourInfoItemTextB">Теплую одежду</div>
+                                        <div class="s-tourInfoItemText s-tourInfoItemTextB">Плед</div>
+                                        <div class="s-tourInfoItemText s-tourInfoItemTextB">Солнцезащитный крем</div>
+                                        <div class="s-tourInfoItemText s-tourInfoItemTextB">Очки</div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        
                         
 
 
@@ -138,7 +204,7 @@
                 <div class="tourPartsBox">
                     <div class="tourPartsBoxItem">
                         <div class="partsItemTitle">
-                            <span>Включено:</span>
+                            <span class="gradient-title-2">Включено:</span>
                         </div>
                         <div class="partsItemContent">
                             <div class="partsItemImg noMarginLeft">
@@ -151,7 +217,7 @@
                             </div>
                             <div class="partsItemImg">
                                 <div class="tourPartsImg partsImgAnimation animateDot-2"><span></span><img src="/assets/img/transfer.png" alt="img"></div>
-                                <div class="tourPartsInfo">Трансфер из отеля<br>в пунк назначения</div>
+                                <div class="tourPartsInfo">Трансфер из отеля<br>в пункт назначения</div>
                             </div>
                             <div class="partsItemImg">
                                 <div class="tourPartsImg partsImgAnimation animateDot-3"><span></span><img src="/assets/img/selfy.png" alt="img"></div>
@@ -163,7 +229,7 @@
 
                     <div class="tourPartsBoxItem">
                         <div class="partsItemTitle">
-                            <span>Не включено:</span>
+                            <span class="gradient-title-2">Не включено:</span>
                         </div>
                         <div class="partsItemContent">
                             <div class="partsItemImg noMarginLeft">
@@ -184,7 +250,7 @@
                 <div class="inBasketDot"></div>
                 <div class="inBasketText marginSideAdd">В корзину</div>
                 <div class="basketAdd marginSideAdd" style="bottom: 0">
-                    <a href="#">
+                    <a href="basket.php">
                         <img src="assets/img/basket.png" alt="img">
                     </a>
                 </div>
@@ -221,48 +287,49 @@
                         <!----------------------------------------------------------------------------------->
                         <div class="toursSliderItem">
                             <div class="tourDesignBack"><img src="assets/img/tourDesignBack.png" alt="img"></div>
-                            <div class="tourDisignImg"><img style="width: 90%;" src="assets/img/tourDesignImg.png" alt="img"></div>
-                            <div class="tourDisignInfo">
-                                <div class="tourDisignTitle">Каинды</div>
+                            <div class="tourDesignImg"><img style="width: 90%;" src="assets/img/tourDesignImg.png" alt="img"></div>
+                            <div class="tourDesignInfo">
+                                <div class="tourDesignTitle">Каинды</div>
                                 <div class="tourDesignText">
                                     <p>
-                                        Когда солнце прячется за горизонт - горы, снежные пики и деревья<br>
-                                        отражаются на поверхности озер Кайынды и Кольсай. Кайынды – лес,<br>
-                                        который спрятался под водой. Затопленная роща возглавляет чарт<br>
-                                        самых загадочных озер в мире. Корни берез теряются в озере на<br>
-                                        глубине 30 метров. Часть стволов этих полосатых красавиц находится<br>
-                                        в воде, вторая же часть - возвышается над водой. Тур по Кайынды не<br>
-                                        для ленивых: уже в самом поселке Саты будет задействован уазик,<br>
+                                        Когда солнце прячется за горизонт - горы, снежные пики и деревья
+                                        отражаются на поверхности озер Кайынды и Кольсай. Кайынды – лес,
+                                        который спрятался под водой. Затопленная роща возглавляет чарт
+                                        самых загадочных озер в мире. Корни берез теряются в озере на
+                                        глубине 30 метров. Часть стволов этих полосатых красавиц находится
+                                        в воде, вторая же часть - возвышается над водой. Тур по Кайынды не
+                                        для ленивых: уже в самом поселке Саты будет задействован уазик,
                                         планируются пешие восхождения средней нагрузки.
-                                    </p></div>
+                                    </p>
+                                </div>
                                 <div class="tourDesignBasket">
                                     <div class="tourDesignBasketText">В корзину</div>
                                     <div class="tourDesignBasketImg">
                                         <div class="basketAdd marginSideAdd" style="bottom: 0">
-                                            <a href="#">
+                                            <a href="basket.php">
                                                 <img src="assets/img/basket.png" alt="img">
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="tourDesignBasketDekor"><img style="width: 130%;" src="assets/img/tourDesignBasketDekor.png" alt="img"></div>
+                                    
                                 </div>
                             </div>
                         </div>
                         <!----------------------------------------------------------------------------------->
-                        <div style="opacity: 0.7" class="toursSliderItem">
+                        <div class="toursSliderItem">
                             <div class="tourDesignBack"><img src="assets/img/tourDesignBack.png" alt="img"></div>
-                            <div class="tourDisignImg"><img style="width: 90%;" src="assets/img/tourDesignImg.png" alt="img"></div>
-                            <div class="tourDisignInfo">
-                                <div class="tourDisignTitle">Каинды</div>
+                            <div class="tourDesignImg"><img style="width: 90%;" src="assets/img/tourDesignImg.png" alt="img"></div>
+                            <div class="tourDesignInfo">
+                                <div class="tourDesignTitle">Каинды</div>
                                 <div class="tourDesignText">
                                     <p>
-                                        Когда солнце прячется за горизонт - горы, снежные пики и деревья<br>
-                                        отражаются на поверхности озер Кайынды и Кольсай. Кайынды – лес,<br>
-                                        который спрятался под водой. Затопленная роща возглавляет чарт<br>
-                                        самых загадочных озер в мире. Корни берез теряются в озере на<br>
-                                        глубине 30 метров. Часть стволов этих полосатых красавиц находится<br>
-                                        в воде, вторая же часть - возвышается над водой. Тур по Кайынды не<br>
-                                        для ленивых: уже в самом поселке Саты будет задействован уазик,<br>
+                                        Когда солнце прячется за горизонт - горы, снежные пики и деревья
+                                        отражаются на поверхности озер Кайынды и Кольсай. Кайынды – лес,
+                                        который спрятался под водой. Затопленная роща возглавляет чарт
+                                        самых загадочных озер в мире. Корни берез теряются в озере на
+                                        глубине 30 метров. Часть стволов этих полосатых красавиц находится
+                                        в воде, вторая же часть - возвышается над водой. Тур по Кайынды не
+                                        для ленивых: уже в самом поселке Саты будет задействован уазик,
                                         планируются пешие восхождения средней нагрузки.
                                     </p>
                                 </div>
@@ -270,30 +337,29 @@
                                     <div class="tourDesignBasketText">В корзину</div>
                                     <div class="tourDesignBasketImg">
                                         <div class="basketAdd marginSideAdd1" style="bottom: 0">
-                                            <a href="#">
+                                            <a href="basket.php">
                                                 <img src="assets/img/basket.png" alt="img">
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="tourDesignBasketDekor"><img style="width: 130%;" src="assets/img/tourDesignBasketDekor.png" alt="img"></div>
                                 </div>
                             </div>
                         </div>
                         <!----------------------------------------------------------------------------------->
                         <div class="toursSliderItem">
                         <div class="tourDesignBack"><img src="assets/img/tourDesignBack.png" alt="img"></div>
-                            <div class="tourDisignImg"><img style="width: 90%;" src="assets/img/tourDesignImg.png" alt="img"></div>
-                            <div class="tourDisignInfo">
-                                <div class="tourDisignTitle">Каинды</div>
+                            <div class="tourDesignImg"><img style="width: 90%;" src="assets/img/tourDesignImg.png" alt="img"></div>
+                            <div class="tourDesignInfo">
+                                <div class="tourDesignTitle">Каинды</div>
                                 <div class="tourDesignText">
                                     <p>
-                                        Когда солнце прячется за горизонт - горы, снежные пики и деревья<br>
-                                        отражаются на поверхности озер Кайынды и Кольсай. Кайынды – лес,<br>
-                                        который спрятался под водой. Затопленная роща возглавляет чарт<br>
-                                        самых загадочных озер в мире. Корни берез теряются в озере на<br>
-                                        глубине 30 метров. Часть стволов этих полосатых красавиц находится<br>
-                                        в воде, вторая же часть - возвышается над водой. Тур по Кайынды не<br>
-                                        для ленивых: уже в самом поселке Саты будет задействован уазик,<br>
+                                        Когда солнце прячется за горизонт - горы, снежные пики и деревья
+                                        отражаются на поверхности озер Кайынды и Кольсай. Кайынды – лес,
+                                        который спрятался под водой. Затопленная роща возглавляет чарт
+                                        самых загадочных озер в мире. Корни берез теряются в озере на
+                                        глубине 30 метров. Часть стволов этих полосатых красавиц находится
+                                        в воде, вторая же часть - возвышается над водой. Тур по Кайынды не
+                                        для ленивых: уже в самом поселке Саты будет задействован уазик,
                                         планируются пешие восхождения средней нагрузки.
                                     </p>
                                 </div>
@@ -301,12 +367,11 @@
                                     <div class="tourDesignBasketText">В корзину</div>
                                     <div class="tourDesignBasketImg">
                                         <div class="basketAdd marginSideAdd" style="bottom: 0">
-                                            <a href="#">
+                                            <a href="basket.php">
                                                 <img src="assets/img/basket.png" alt="img">
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="tourDesignBasketDekor"><img style="width: 130%;" src="assets/img/tourDesignBasketDekor.png" alt="img"></div>
                                 </div>
                             </div>
                         </div>
@@ -322,7 +387,27 @@
             <div class="tourDesignForm">
                 <img src="assets/img/sub-tourFormBack.png" alt="фон">                
                 <div class="form">
-                    <div class="formDekorText formText1" data-aos="zoom-in">Узнать больше</div>
+                    <div class="formDekorText" data-aos="zoom-in" data-aos-delay="500" data-aos-once="true">
+                        <div style="right: 95%;width: 35em;top: 0.5em;" class="lines_left">
+                            <hr style="right: 84%;" class="line_sm">
+                            <div class="line_dots">
+                                <div class="myTripsSqr op3"></div>
+                                <div class="myTripsSqr op2"></div>
+                                <div class="myTripsSqr op1"></div>
+                            </div>
+                            <hr style="right: 3%;" class="line_long">
+                        </div>
+                        <div style="top:7.5em; right: -5.5em;" class="lines_right">
+                            <hr class="line_sm">
+                            <div class="line_dots">
+                                <div class="myTripsSqr op1"></div>
+                                <div class="myTripsSqr op2"></div>
+                                <div class="myTripsSqr op3"></div>
+                            </div>
+                            <hr class="line_long">
+                        </div>
+                        Узнать больше
+                    </div>
                     <div class = "formText2">Получить обратный звонок</div>
                     <div class="formText3">от вашего персонального дизайнера путешествий JABE CONCIERGE</div>
                     <button class="borderAdd openGuide">ОТПРАВИТЬСЯ В ПОЕЗДКУ</button>

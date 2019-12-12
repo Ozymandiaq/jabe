@@ -22,28 +22,70 @@
                     <div class="basketList">
                         <div class="basketListDate">
                             <div class="basketListDateCity">
-                                <div class="basketListCity">Город:</div>
+                                <div class="basketListCity gradient-title-2">Город:</div>
                                 <div class="basketCity">Алматы</div>
                             </div>
                             <div class="basketListDateFrom">
                                 <div class="basketListDateFromText">Дата от:</div>
+                                <div class="datePicker"></div>
                                 <!--DATE PICKER-->
                             </div>
                             <div class="basketListDateUntil">
                                 <div class="basketListDateUntilText">Дата до:</div>
+                                <div class="datePicker"></div>
                                 <!--DATE PICKER-->
                             </div>
                         </div>
                         <div class="basketTable">
                             <table>
                                 <tr>
-                                    <td>Наименование</td><td>Сумма</td><td></td>
+                                    <td class="basketTitle whiteBorder">Наименование</td><td class="basketTitle whiteBorder">Сумма</td><td class="basketTitle"></td>
                                 </tr>
                                 <tr>
-                                    <td>большое алматинское озеро</td><td>450 $</td><td class="deleteBasketItemImg"><img src="/assets/img/deleteBasketItemImg.png" alt="img"></td>
+                                    <td class="basketItemTitle gradient-title-2">большое алматинское озеро</td><td class="gradient-title-2">450 $</td><td class="deleteBasketItemImg"><a href="#"><img src="/assets/img/deleteBasketItemImg.png" alt="img"></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="basketItemTitle gradient-title-2">Казино</td><td class="gradient-title-2">450 $</td><td class="deleteBasketItemImg"><a href="#"><img src="/assets/img/deleteBasketItemImg.png" alt="img"></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="basketItemTitle gradient-title-2">имиджевые мероприятия</td><td class="gradient-title-2">450 $</td><td class="deleteBasketItemImg"><a href="#"><img src="/assets/img/deleteBasketItemImg.png" alt="img"></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="basketItemTitle gradient-title-2">большое алматинское озеро</td><td class="gradient-title-2">450 $</td><td class="deleteBasketItemImg"><a href="#"><img src="/assets/img/deleteBasketItemImg.png" alt="img"></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="basketItemTitle gradient-title-2">Казино</td><td class="gradient-title-2">450 $</td><td class="deleteBasketItemImg"><a href="#"><img src="/assets/img/deleteBasketItemImg.png" alt="img"></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="basketItemTitle gradient-title-2">имиджевые мероприятия</td><td class="gradient-title-2">450 $</td><td class="deleteBasketItemImg"><a href="#"><img src="/assets/img/deleteBasketItemImg.png" alt="img"></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="basketItemTitle gradient-title-2">имиджевые мероприятия</td><td class="gradient-title-2">450 $</td><td class="deleteBasketItemImg"><a href="#"><img src="/assets/img/deleteBasketItemImg.png" alt="img"></a></td>
                                 </tr>
                             </table>
+                            <div class="basketTotal">
+                                <div class="basketTotalItems">
+                                    <div class="basketTotalItem gradient-title-2">Итого товаров:</div>
+                                    <div class="basketTotalItem1">3</div>
+                                </div>
+                            </div>
+                            <div class="basketTotal">
+                                <div class="basketTotalItems">
+                                    <div class="basketTotalItem gradient-title-2">Итого сумма:</div>
+                                    <div class="basketTotalItemPrice">1 350 $</div>
+                                </div>
+                                <div class="basketTotalItems">
+                                    <div class="checkImg"><img src="/assets/img/checkImg.png" alt="img"></div>
+                                    <div class="basketTotalItem gradient-title-2">Сумма предоплаты:</div>
+                                    <div class="basketTotalItemPrice">500 $</div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="basketTotalButton">
+                            <button class="baksetButton brownBack noUpper">Оплатить</button>
+                        </div>
+
+                        
 
                     </div>
 

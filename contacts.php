@@ -89,7 +89,7 @@
                         <div class="contactsInfo">
                             <div class="contactsInfoTop">
                                 <div class="contactsCity">
-                                    <span>Астана</span>
+                                    <span>Нур-Султан</span>
                                 </div>
                             </div>
                             <div class="contactsInfoBottom">

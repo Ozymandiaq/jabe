@@ -76,9 +76,9 @@
 <header id="header">    
     <div class="header-box">
         <div class="popupMenuCloseBtn">
-            <a href="#">
-                <img src="assets/img/popupMenuCloseBtn.png" alt="img">
-            </a>
+                <a href="#">
+                    <img src="assets/img/popupMenuCloseBtn.png" alt="img">
+                </a>
         </div>
         <div class="menu openMenu">
             <a href="#">
@@ -98,7 +98,7 @@
                         <button class="dropbtn dropbtnCities headerDropStyle noBack">Города<img src="/assets/img/arr.png" alt="img"></button>
                             <div class="dropdown-content dropdown-contentCities">
                             <a href="#">Алматы</a>
-                            <a href="#">Астана</a>
+                            <a href="#">Нур-Султан</a>
                             <a href="#">Москва</a>
                             <a href="#">Баку</a>
                         </div>
