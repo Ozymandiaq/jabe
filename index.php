@@ -25,8 +25,12 @@
 
             <div class="sliderLbl">
                 <a href="#">
-                        <span class="post_text">Almaty</span> <span>■</span>
-                    </a>
+                    <div class="post_text">
+                        Almaty
+                    </div>
+                    <div class="sqr post_text">
+                    </div>
+                </a>
             </div>
                     
             <div class="sliderButtons owl-dots">

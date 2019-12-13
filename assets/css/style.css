@@ -161,10 +161,10 @@ body{
     left: 50%;
     width: 374px;
     height: 515px;
-    background-color: #ffffff;
-    background-image: linear-gradient(48deg, #000000 0%, #303030 50%, #000004 100%);
+    background-image: linear-gradient(-160deg, #737373 0%, #454545 51%, #252525 100%);
+    background-image: -webkit-linear-gradient(-160deg, #737373 0%, #454545 51%, #252525 100%);
     overflow: hidden;
-    z-index: 105;
+    z-index: 151;
 }
 
 .preloader:before{
@@ -193,14 +193,13 @@ body{
 }
 
 .preloader_bg{
-    background-image: url(../img/preloader_bg.png);
-    background-size: cover;
+    background: #4f4b1b;
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0%;
     left: 0%;
-    z-index: 104;
+    z-index: 150;
 }
 
 .preloader_bg img{
@@ -245,6 +244,7 @@ body{
     background: linear-gradient(-3deg, #7a7a7a 0%, #ffffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 600;
 }
 .gradient-title-2{
     background-image: linear-gradient(-3deg, #000000 0%, #7f7f7f 100%);
@@ -643,6 +643,7 @@ header{
 .contacts{
     color: #ffffff;
     font-size: 0.9em;
+    font-weight: 600;
     flex-direction: row;
     position: relative;
     left: 0.5em;
@@ -1185,7 +1186,8 @@ animation: animateDot 4.1s linear infinite;
     font-weight: bold;
     display: block;
     right: 28.2%;
-    bottom: 2.5%;
+    bottom: 1.5%;
+    display: flex;
     
 }
 
@@ -1721,7 +1723,7 @@ background: linear-gradient(-3deg, #000000 0%, #7f7f7f 100%);
 background-clip: text;
 font-family: "HelveticaThin";
 font-size: 0.97em;
-font-weight: 400;
+font-weight: 600;
 text-transform: uppercase;
 }
 
@@ -2532,11 +2534,6 @@ text-transform: uppercase;
     width: 100%;
     overflow: hidden;
 }
-.toursBannerM{
-    display: none;
-    position: relative;
-
-}
 .toursBanner img{
     top: -6%;
     position: absolute;
@@ -3185,10 +3182,10 @@ height: 21.4em;
     height: auto;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 63%;
-    left: 50%;
+    top: 76%;
+    left: 50.4%;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.8em;
 }
 
 /* ---------------------------------BODY-SECTION-SUB-TOURS------------------------------------- */
@@ -3228,8 +3225,6 @@ height: 21.4em;
     text-transform: uppercase;
     line-height: 1.3em;
 }
-
-
 
 .basketForm{
     width: 33em;
@@ -5071,7 +5066,7 @@ height: 21.4em;
     color: #000000;
     font-family: "HelveticaThin";
     font-size: 1.1em;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
 }
 .basketFormStyle-2{
@@ -5110,11 +5105,10 @@ height: 21.4em;
     color: #000000;
     font-family: "HelveticaThin";
     font-size: 0.8em;
-    font-weight: 400;
+    font-weight: 600;
     display: block;
     position: relative;
     padding-left: 2.1em;
-
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -5179,7 +5173,7 @@ height: 21.4em;
     padding: 2em 12em;
     font-family: "HelveticaLight";
     font-size: 0.85em;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 1em;
 }
 
@@ -5360,3 +5354,192 @@ height: 21.4em;
     transition-delay: 3.5s;
     width: 35%;
 }
+
+
+
+
+
+/*-----SUB-TOURS-MOBILE-----*/
+.sub-toursBannerM{
+    width: 100%;
+    height: 42.45em;
+    display: none;
+    position: relative;
+}
+
+.sub-toursBannerImgM{
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    width: 100%;
+    height: 100%;    
+}
+.sub-toursBannerImgMImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.sub-toursBannerDekorM{
+    width: 100%;
+    height: 100%;   
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;    
+}
+.sub-toursBannerDekorMImg{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.sub-toursBannerFormM{
+    width: 84%;
+    height: 76%;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 53%;
+    left: 52%;
+    padding: 0 10px;
+    z-index: 1;
+}
+
+
+.sub-toursBannerTitleM{
+    width: 85%;
+    height: auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 25.5%;
+    left: 48%;
+}
+
+.sub-toursBannerTitleM h1{
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 3.8em;
+    line-height: 1.2em;
+    font-family: "HelveticaThin";
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.basketFormM{
+    width: 85%;
+    height: 19.2em;
+    position: absolute;
+    bottom: -18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3em 1em 2em 2.9em;
+    background-image: url(../img/basketFormBack.png);
+    background-size: cover;
+    color: #000000;
+    font-family: "HelveticaThin";
+    /* font-size: 0.8em; */
+    font-weight: 400;
+
+}
+
+.basketFormM img{
+    width: 100%;
+}
+.ratingM{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3.5em;
+}
+.ratingText{
+    color: #000000;
+    font-family: "HelveticaThin";
+    font-weight: 400;
+}
+.ratingText span{
+    font-size: 2.8em;
+}
+
+.basketFormPriceM{
+
+}
+.basketFormPriceTopM{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.basketFormPriceBottomM{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.priceBeforeTextM span{
+    font-size: 1.6em;
+}
+.transp span{
+    font-size: 1.6em;
+}
+.priceFromM{
+    width: 12.5em;
+
+}
+
+.priceItemM{
+    display: flex;
+    justify-content: space-between;
+}
+
+.priceFromPriceM{
+    background: #4f4b1b;
+    padding: 0.5em;
+    border: 1px solid #7b7b7b;
+    text-align: center;
+    margin: 1em 0.15em 0em 0.15em;
+}
+.priceFromPriceM:hover{
+    background-color: #5a0202;
+}
+.fw1_6em{
+    font-weight: 1.6em;
+}
+.fw2_5em{
+    font-weight: 2.5em;
+}
+
+.colorWhite{
+    color: #ffffff;
+}
+
+.priceFromPriceM{
+    margin-top: 1em;
+}
+.transp{
+    color: transparent;
+}
+.priceBeforeM{
+    display: flex;
+
+}
+
+.basketAddM{
+    width: 3em;
+    height: 3em;
+    position: relative;
+    top: 0.5em;
+    border-radius: 50%;
+    background-color: #524729;
+    padding: 0.5em 0.7em 0.8em;   
+}
+.basketAddM:hover{
+    background-color: #5a0202;
+}
+
+.basketAddM img{
+    width: 100%;
+}
+
+
+

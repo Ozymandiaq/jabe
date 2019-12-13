@@ -4,7 +4,7 @@
     
     <body>
         <!-- <img src="sub-tours .jpg" class="test"> -->
-        <section id="sub-tours-1">
+        <section class = "noInMob" id="sub-tours-1">
 
             <div class="sub-tours__bannerBlock">
                 <div class="bannerBlockImg">
@@ -60,7 +60,7 @@
             </div>
             
         </section>
-        <section id="sub-tours-2">
+        <section class = "noInMob" id="sub-tours-2">
 
             <div class="myTrips">
                 <div class="myTripsTop">
@@ -94,7 +94,7 @@
                 </div>
             </div>
         </section>
-        <section id="sub-tours-3">
+        <section class = "noInMob" id="sub-tours-3">
             <div class="title noBack BlackHr">
                 <div class="hr"><hr></div>
                 <div class="titleSpan gradient-title-2"><span>БОЛЬШОЕ АЛМАТИНСКОЕ ОЗЕРО</span></div>
@@ -274,7 +274,7 @@
             </div>
         </section>
 
-        <section id="sub-tours-4">
+        <section class = "noInMob" id="sub-tours-4">
             <div class="title">
                 <div class="hr"><hr></div>
                     <div class="titleSpan"><span class="gradient-title">Изучи больше дизайнов путешествия</span></div>
@@ -415,7 +415,7 @@
             </div>
 
         </section>
-        <section id="sub-tours-5">
+        <section class = "noInMob" id="sub-tours-5">
             <div class="titlePartners">
                 <div class="hrPartners"></div>
                 <div class="titleSpan"><span class="gradient-title-2">ОТЗЫВЫ</span></div>
@@ -522,6 +522,112 @@
             </div>
         </div>
         <div class="popupGuideBack"></div>
+
+        <!------------------------------------------------MOBILE-------------------------------------------------------->
+        <div class="sub-toursBannerM"> <!-- SUB-TOURS BANNER MOBILE -->
+            <div class="sub-toursBannerImgM">
+                <img class="sub-toursBannerImgMImg" src="/assets/img/mobile/sub-toursBannerImgM.png" alt="img">
+            </div>
+            <div class="sub-toursBannerDekorM">
+                <img class="sub-toursBannerDekorMImg" src="/assets/img/mobile/sub-toursBannerDekorM.png" alt="img">
+            </div>
+            <div class="sub-toursBannerFormM">                   
+                <div class="sub-toursBannerTitleM">
+                    <h1>Большое Алматинское озеро</h1>
+                </div>
+            </div>
+            <div class="basketFormM">
+                <div class="ratingM">
+                    <div class="ratingText"><span>Рейтинг</span></div>
+                    <div class="js-rating" style="cursor: pointer;">
+                        <i data-alt="1" class="fa fa-fw fa-star text-warning" title="Bad">
+                        </i>&nbsp;<i data-alt="2" class="fa fa-fw fa-star text-warning" title="Poor">                                
+                        </i>&nbsp;<i data-alt="3" class="fa fa-fw fa-star text-warning" title="Regular">
+                        </i>&nbsp;<i data-alt="4" class="fa fa-fw fa-star text-warning" title="Good">
+                        </i>&nbsp;<i data-alt="5" class="fa fa-fw fa-star text-warning" title="Gorgeous">
+                        </i><input name="score" type="hidden" value="5">
+                    </div>
+                </div>
+                <div class="basketFormPriceM">
+                    <div class="basketFormPriceTopM">
+                        <div class="priceFromM upper ">
+                            <span class="fw1_6em">ЦЕНА</span>
+                        </div>
+                        <div class="priceBeforeTextM upper">
+                            <span>
+                                Предоплата
+                            </span>
+                        </div>
+                    </div>
+                    <div class="basketFormPriceBottomM">
+                        <div class="priceFromPriceM priceFromM noBack">
+                            <span class="fw1_6em">
+                                ОТ
+                            </span>
+                            <span class="fw2.5em">
+                                450$
+                            </span>
+                        </div>
+                        <div class="priceFromPriceM colorWhite">
+                            <span class = "fw2_5em">
+                                15%
+                            </span>
+                        </div>
+                        <div class="priceFromPriceM colorWhite">
+                            <span class = "fw2.5em">
+                                20%
+                            </span>
+                        </div>
+                        <div class="priceFromPriceM colorWhite">
+                            <span class = "fw2.5em">
+                                30%
+                            </span>
+                        </div>
+                        <div class="basketAddM">
+                            <a href="basket.php">
+                                <img src="assets/img/basket.png" alt="img">
+                            </a>
+                        </div>
+                        
+
+                    </div>
+
+
+
+
+
+
+                    <!-- <div class="basketFormPriceItemM">
+                        <div class="priceItemM">
+                            <div class="priceFromM upper">
+                                <div><span>ЦЕНА</span></div>
+                                <div class="priceFromPriceM noBack"><span>ОТ 450$</span></div>
+                            </div>
+                            <div class="priceBeforeM upper">
+                                <div>
+                                <div class="priceBeforeTextM upper"><span>Предоплата</span></div>
+                                <div class="priceFromPriceM colorWhite"><span>15%</span></div>
+                                </div>
+                                <div>
+                                <div class="transp unselectable">_</div>
+                                <div class="priceFromPriceM colorWhite"><span>20%</span></div>
+                                </div>
+                                <div>
+                                <div class="transp unselectable">_</div>
+                                <div class="priceFromPriceM colorWhite"><span>30%</span></div>
+                                </div>
+                            </div>
+                            <div class="basketAddM">
+                                <a href="basket.php">
+                                    <img src="assets/img/basket.png" alt="img">
+                                </a>
+                            </div>                            
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
 </body>
     </html>
 <?php include 'footer.php';?>

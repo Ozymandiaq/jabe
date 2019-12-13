@@ -1,17 +1,4 @@
-window.onload = function(){
-    let preloader = document.getElementById('preloader');
-    let preloader_bg = document.getElementById('preloader_bg');
-    preloader.style.display = 'none';
-    preloader_bg.style.display = 'none';
-    
-};
 
-setInterval(function () {
-    $('.preloader').addClass('preloaderActive');
-    setTimeout(function () {
-        $('.preloader').removeClass('preloaderActive');
-    },1000)
-}, 2500);
 
 
 $(document).ready(function () {
