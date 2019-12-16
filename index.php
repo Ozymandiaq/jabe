@@ -26,9 +26,9 @@
             <div class="sliderLbl">
                 <a href="#">
                     <div class="post_text">
+                        <div class="sqr">
+                        </div>
                         Almaty
-                    </div>
-                    <div class="sqr post_text">
                     </div>
                 </a>
             </div>

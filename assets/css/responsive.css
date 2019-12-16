@@ -132,7 +132,7 @@
     .sub-toursBanner{
         display: none;
     }
-    .sub-toursBannerM{
+    .sub-toursBoxM{
         display: block;       
     }
     .sub-toursItemsM{
@@ -142,6 +142,10 @@
         display: flex;
     }
     .sub-toursFormM{
+        display: block;
+    }
+    /*-------------------ARTICLE OPEN-------------------*/
+    .articleOpenM{
         display: block;
     }
 }

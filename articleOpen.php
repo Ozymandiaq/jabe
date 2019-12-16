@@ -4,7 +4,7 @@
     
     <body>
         <!-- <img src="articleOpen.jpg" class="test"> -->
-        <section id="article">
+        <section id="article" class = "noInMob">
 
             <div class="topImg">
                 <img src="/assets/img/articleTop.png" alt="верхняя картинка">
@@ -20,10 +20,10 @@
                 <div class="articleBox"> <!--  flex column ai cent jc cent -->
                     
                     <div class="goBack">
-                    <a href="#">
-                        <img src="/assets/img/rowBack.png" alt="стрелочка назад">
-                        <span>Назад</span>
-                    </a>
+                        <a href="#">
+                            <img src="/assets/img/rowBack.png" alt="стрелочка назад">
+                            <span>Назад</span>
+                        </a>
                     </div>
 
                     <div class="articleInfo">
@@ -68,29 +68,63 @@
                                 самые крупные представители казахской породы, выведенной на территории современного Казахстана и разводимой 
                                 в настоящее время в Республике Казахстан и прилегающих к ней территориях. </p>
                             </div>
-
                         </div>
-
-
                     </div>
-
-                
-                
-                
-                
-                
                 </div>
-
-
-            </div>
-
-            
+            </div>            
         </section>
 
-
-
-
-
+        <div class="articleOpenM">
+            <div class="topImgM">
+                <img src="/assets/img/mobile/aboutTopImgM.png" alt="img">
+                <div></div>
+            </div>
+            <div class="titleM">  <!-- TOURS TITLE MOBILE -->
+                <div class="hr"><hr></div>
+                <div class="titleMSpan gradient-title"><span>jabe журнал</span></div>
+                <div class="hr"><hr></div>
+            </div>
+            <div class="articleBoxM">
+                <div class="goBackM">
+                    <a class="goBackM" href="#">                       
+                        <img class="goBackImgM" src="/assets/img/mobile/goBackImgM.png" alt="img">
+                        <span>Назад</span>
+                    </a>
+                </div>
+                <div class="articleImgM">
+                    <img class="articleImgImgM" src="/assets/img/mobile/articleImgImgM.png" alt="img">
+                </div>
+                <div class="articleDateM">
+                    <span>01.01.2019</span>
+                </div>
+                <div class="articleTitleM">
+                    <div class="articleTitleTextM">
+                        <span class = "gradient-title">Джэбе</span>
+                    </div>
+                    <div class="articleTitleDekorM">
+                        <img class="articleDot" src="/assets/img/mobile/articleDot.png" alt="img">
+                        <div class="articleLine"></div>
+                    </div>
+                </div>
+                <div class="articleBoxTextM">
+                    <p>
+                        Джэбе (джебе, джабе) — одна из старейших пород казахских лошадей,
+                        самые крупные представители казахской породы, выведенной на территории
+                        современного Казахстана и разводимой в настоящее время в Республике
+                        Казахстан и прилегающих к ней территориях. Джэбе (джебе, джабе) — одна из 
+                        старейших пород казахских лошадей, самые крупные представители казахской породы,
+                        выведенной на территории современного Казахстана и разводимой в настоящее время в
+                        Республике Казахстан и прилегающих к ней территориях. Джэбе (джебе, джабе) — одна
+                        из старейших пород казахских лошадей, самые крупные представители казахской породы,
+                        выведенной на территории современного Казахстана и разводимой в настоящее время в
+                        Республике Казахстан и прилегающих к ней территориях. Джэбе (джебе, джабе) — одна из
+                        старейших пород казахских лошадей, самые крупные представители казахской породы, выведенной
+                        на территории современного Казахстана и разводимой в настоящее время в Республике
+                        Казахстан и прилегающих к ней территориях. 
+                    </p>
+                </div>
+            </div>            
+        </div>
 </body>
     </html>
 <?php include 'footer.php';?>

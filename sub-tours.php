@@ -524,109 +524,137 @@
         <div class="popupGuideBack"></div>
 
         <!------------------------------------------------MOBILE-------------------------------------------------------->
-        <div class="sub-toursBannerM"> <!-- SUB-TOURS BANNER MOBILE -->
-            <div class="sub-toursBannerImgM">
-                <img class="sub-toursBannerImgMImg" src="/assets/img/mobile/sub-toursBannerImgM.png" alt="img">
-            </div>
-            <div class="sub-toursBannerDekorM">
-                <img class="sub-toursBannerDekorMImg" src="/assets/img/mobile/sub-toursBannerDekorM.png" alt="img">
-            </div>
-            <div class="sub-toursBannerFormM">                   
-                <div class="sub-toursBannerTitleM">
-                    <h1>Большое Алматинское озеро</h1>
+        <div class="sub-toursBoxM">
+            <div class="sub-toursBannerM"> <!-- SUB-TOURS BANNER MOBILE -->
+                <div class="sub-toursBannerImgM">
+                    <img class="sub-toursBannerImgMImg" src="/assets/img/mobile/sub-toursBannerImgM.png" alt="img">
                 </div>
-            </div>
-            <div class="basketFormM">
-                <div class="ratingM">
-                    <div class="ratingText"><span>Рейтинг</span></div>
-                    <div class="js-rating" style="cursor: pointer;">
-                        <i data-alt="1" class="fa fa-fw fa-star text-warning" title="Bad">
-                        </i>&nbsp;<i data-alt="2" class="fa fa-fw fa-star text-warning" title="Poor">                                
-                        </i>&nbsp;<i data-alt="3" class="fa fa-fw fa-star text-warning" title="Regular">
-                        </i>&nbsp;<i data-alt="4" class="fa fa-fw fa-star text-warning" title="Good">
-                        </i>&nbsp;<i data-alt="5" class="fa fa-fw fa-star text-warning" title="Gorgeous">
-                        </i><input name="score" type="hidden" value="5">
+                <div class="sub-toursBannerDekorM">
+                    <img class="sub-toursBannerDekorMImg" src="/assets/img/mobile/sub-toursBannerDekorM.png" alt="img">
+                </div>
+                <div class="sub-toursBannerFormM">                   
+                    <div class="sub-toursBannerTitleM">
+                        <h1>Большое Алматинское озеро</h1>
                     </div>
                 </div>
-                <div class="basketFormPriceM">
-                    <div class="basketFormPriceTopM">
-                        <div class="priceFromM upper ">
-                            <span class="fw1_6em">ЦЕНА</span>
-                        </div>
-                        <div class="priceBeforeTextM upper">
-                            <span>
-                                Предоплата
-                            </span>
+                <div class="basketFormM">
+                    <div class="ratingM">
+                        <div class="ratingTextM"><span>Рейтинг</span></div>
+                        <div class="js-rating" style="cursor: pointer;">
+                            <i data-alt="1" class="fa fa-fw fa-star text-warning" title="Bad">
+                            </i>&nbsp;<i data-alt="2" class="fa fa-fw fa-star text-warning" title="Poor">                                
+                            </i>&nbsp;<i data-alt="3" class="fa fa-fw fa-star text-warning" title="Regular">
+                            </i>&nbsp;<i data-alt="4" class="fa fa-fw fa-star text-warning" title="Good">
+                            </i>&nbsp;<i data-alt="5" class="fa fa-fw fa-star text-warning" title="Gorgeous">
+                            </i><input name="score" type="hidden" value="5">
                         </div>
                     </div>
-                    <div class="basketFormPriceBottomM">
-                        <div class="priceFromPriceM priceFromM noBack">
-                            <span class="fw1_6em">
-                                ОТ
-                            </span>
-                            <span class="fw2.5em">
-                                450$
-                            </span>
-                        </div>
-                        <div class="priceFromPriceM colorWhite">
-                            <span class = "fw2_5em">
-                                15%
-                            </span>
-                        </div>
-                        <div class="priceFromPriceM colorWhite">
-                            <span class = "fw2.5em">
-                                20%
-                            </span>
-                        </div>
-                        <div class="priceFromPriceM colorWhite">
-                            <span class = "fw2.5em">
-                                30%
-                            </span>
-                        </div>
-                        <div class="basketAddM">
-                            <a href="basket.php">
-                                <img src="assets/img/basket.png" alt="img">
-                            </a>
-                        </div>
-                        
-
-                    </div>
-
-
-
-
-
-
-                    <!-- <div class="basketFormPriceItemM">
-                        <div class="priceItemM">
-                            <div class="priceFromM upper">
-                                <div><span>ЦЕНА</span></div>
-                                <div class="priceFromPriceM noBack"><span>ОТ 450$</span></div>
+                    <div class="basketFormPriceM">
+                        <div class="basketFormPriceTopM">
+                            <div class="priceFromM upper ">
+                                <span class="fw1_6em">ЦЕНА</span>
                             </div>
-                            <div class="priceBeforeM upper">
-                                <div>
-                                <div class="priceBeforeTextM upper"><span>Предоплата</span></div>
-                                <div class="priceFromPriceM colorWhite"><span>15%</span></div>
-                                </div>
-                                <div>
-                                <div class="transp unselectable">_</div>
-                                <div class="priceFromPriceM colorWhite"><span>20%</span></div>
-                                </div>
-                                <div>
-                                <div class="transp unselectable">_</div>
-                                <div class="priceFromPriceM colorWhite"><span>30%</span></div>
-                                </div>
+                            <div class="priceBeforeTextM upper">
+                                <span>
+                                    Предоплата
+                                </span>
+                            </div>
+                        </div>
+                        <div class="basketFormPriceBottomM">
+                            <div class="priceFromPriceM priceFromM noBack">
+                                <span class="fs1_6em">
+                                    ОТ
+                                </span>
+                                <span class="fs2.5em">
+                                    450$
+                                </span>
+                            </div>
+                            <div class="priceFromPriceM colorWhite">
+                                <span class = "fw2_5em">
+                                    15%
+                                </span>
+                            </div>
+                            <div class="priceFromPriceM colorWhite">
+                                <span class = "fw2.5em">
+                                    20%
+                                </span>
+                            </div>
+                            <div class="priceFromPriceM colorWhite">
+                                <span class = "fw2.5em">
+                                    30%
+                                </span>
                             </div>
                             <div class="basketAddM">
                                 <a href="basket.php">
                                     <img src="assets/img/basket.png" alt="img">
                                 </a>
-                            </div>                            
-                        </div>
-                    </div> -->
+                            </div>
+                        </div>                   
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="sub-toursTitleM">
+                <div class="sub-toursTitleBackM">
+                    <img src="/assets/img/mobile/sub-toursTitleBackM.png" alt="img">
+                </div>
+                <div class="sub-toursTitleTextM">
+                    <p class="upper"><span>Мои эксклюзивные поездки</span></p>
+                    <p>с <span>JABE.</span> Те же локации, но красочнее эмоции.</p>
+                </div>
+                <div class="sub-toursTitleBtnM">
+                    <button class="btnM borderAddM">
+                        <span>
+                            Отправиться в поездку
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="sub-toursInfoM">
+                <div class="sub-toursInfoTitleM">
+                    <div class="hr"><hr></div>
+                    <div class="titleMSpan gradient-title-2"><span>Большое Алматинское озеро</span></div>
+                    <div class="hr"><hr></div>
+                </div>
+                <div class="sub-toursInfoAboutM">
+                    <div class="sub-toursInfoTextM">
+                        <p>
+                            <b>Большое Алматинское озеро</b> - естественное альпийское водохранилище, 
+                            появившееся из-за землетрясения в горах Заилийского Алатау, окружено 
+                            тремя впечатляющими красотой горами. Именно ледники, тающие на верхушках 
+                            этих гор и создают Озеро. Талая природная вода является основным 
+                            источником питьевой воды для верхней части города Алматы. Резервуар 
+                            строго охраняется, туристам запрещается приближаться к воде ближе 
+                            чем за несколько метров, купание запрещено. Озеро условно пролегает на 
+                            границе между горами Кыргызстана и Казахстана, объект охраняется, всем 
+                            навестившим озеро требуется иметь при себе паспорт.
+                        </p>
+                    </div>
+                    <div class="sub-toursInfoLineM"></div>
+                    <div class="sub-tourInfoTegsM">
+                        <span>#алматы</span>
+                        <span style="font-size: 0.89em;">#активныйотдых</span>
+                        <span style="font-size: 0.92em;">#озеро</span>
+                        <span style="font-size: 0.92em;">#бао</span><br>
+                        <span style="font-size: 0.85em;">#большоеалматинскоеозеро</span>
+                        <span style="font-size: 0.86em;">#туризмалматы</span>
+                    </div>
+                    <div class="sub-toursInfoLine_2M"></div>
+                    <div class="sub-tourInfoRecomendationsM">
+                        <div class="mb1em"><span class="recomendationsGradientTextM">Подходит:</span><span class="recomendationsBrownTextM">Для всех</span></div>
+                        <div class="mb1em"><span class="recomendationsGradientTextM">Продолжительность:</span><span class="recomendationsBrownTextM">Около 4 часов</span></div>
+                        <div class="mb1em"><span class="recomendationsGradientTextM">Рекомендации:</span><span class="recomendationsBrownTextM">Удобная обувь</span></div>
+                        <div class="mb1em"><span class="recomendationsGradientTextM">Cезон:</span><span class="recomendationsBrownTextM">Всесезонный, затруднительно с декабря по март из- за скользкой дороги</span></div>
+                        <div class="mb1em"><span class="recomendationsGradientTextM">Максимальное количество людей:</span><span class="recomendationsBrownTextM">16</span></div>
+                        <div class="mb1em"><span class="recomendationsGradientTextM">Обязательно иметь c собой:</span><span class="recomendationsBrownTextM">Паспорт</span></div>
+                        <div class="mb1em"><span class="recomendationsGradientTextM">В зимнее время рекомендуем взять:</span><span class="recomendationsBrownTextM">Шапку / Перчатки / Теплую одежду / Плед / Солнцезащитный крем / Очки</span></div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>  
 
 </body>
     </html>
