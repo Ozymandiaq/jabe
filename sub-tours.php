@@ -640,22 +640,158 @@
                     </div>
                     <div class="sub-toursInfoLine_2M"></div>
                     <div class="sub-tourInfoRecomendationsM">
-                        <div class="mb1em"><span class="recomendationsGradientTextM">Подходит:</span><span class="recomendationsBrownTextM">Для всех</span></div>
-                        <div class="mb1em"><span class="recomendationsGradientTextM">Продолжительность:</span><span class="recomendationsBrownTextM">Около 4 часов</span></div>
-                        <div class="mb1em"><span class="recomendationsGradientTextM">Рекомендации:</span><span class="recomendationsBrownTextM">Удобная обувь</span></div>
-                        <div class="mb1em"><span class="recomendationsGradientTextM">Cезон:</span><span class="recomendationsBrownTextM">Всесезонный, затруднительно с декабря по март из- за скользкой дороги</span></div>
-                        <div class="mb1em"><span class="recomendationsGradientTextM">Максимальное количество людей:</span><span class="recomendationsBrownTextM">16</span></div>
-                        <div class="mb1em"><span class="recomendationsGradientTextM">Обязательно иметь c собой:</span><span class="recomendationsBrownTextM">Паспорт</span></div>
-                        <div class="mb1em"><span class="recomendationsGradientTextM">В зимнее время рекомендуем взять:</span><span class="recomendationsBrownTextM">Шапку / Перчатки / Теплую одежду / Плед / Солнцезащитный крем / Очки</span></div>
-
+                        <div class="mb1em">
+                            <span class="recomendationsGradientTextM gradient-title-2">Подходит:</span>
+                            <span class="recomendationsBrownTextM">Для всех</span>
+                        </div>
+                        <div class="mb1em">
+                            <span class="recomendationsGradientTextM gradient-title-2">Продолжительность:</span>
+                            <span class="recomendationsBrownTextM">Около 4 часов</span>
+                        </div>
+                        <div class="mb1em">
+                            <span class="recomendationsGradientTextM gradient-title-2">Рекомендации:</span>
+                            <span class="recomendationsBrownTextM">Удобная обувь</span>
+                        </div>
+                        <div class="mb1em">
+                            <span class="recomendationsGradientTextM gradient-title-2">Cезон:</span>
+                            <span class="recomendationsBrownTextM">Всесезонный, затруднительно с декабря по март из- за скользкой дороги</span>
+                        </div>
+                        <div class="mb1em">
+                            <span class="recomendationsGradientTextM gradient-title-2">Максимальное количество людей:</span>
+                            <span class="recomendationsBrownTextM">16</span>
+                        </div>
+                        <div class="mb1em">
+                            <span class="recomendationsGradientTextM gradient-title-2">Обязательно иметь c собой:</span>
+                            <span class="recomendationsBrownTextM">Паспорт</span>
+                        </div>
+                        <div class="mb1em">
+                            <span class="recomendationsGradientTextM gradient-title-2">В зимнее время рекомендуем взять:</span>
+                            <span class="recomendationsBrownTextM">Шапку / Перчатки / Теплую одежду / Плед / Солнцезащитный крем / Очки</span>
+                        </div>
                     </div>
-
-
+                </div>
+                <div class="includeBoxM">
+                    <div class="includeTitleImgM">
+                        <img src="/assets/img/mobile/includeFrameM.png" alt="img">
+                    </div>
+                    <div class="includeTitleM gradient-title-2">
+                        <span>Включено:</span>
+                    </div>
+                    <div class="includeItemM includeItem_1M">
+                        <div class="includeItemTitleM">
+                            <span>Услуги гида</span><span class="unselectable"> циклопентан</span>
+                        </div>
+                        <div class="includeItemImgM includeItemImg_bottomDotM">
+                            <img src="/assets/img/mobile/guideService.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="includeItemM includeItem_2M">
+                        <div class="includeItemTitleM">
+                            <span>Экологический сбор</span>
+                        </div>
+                        <div class="includeItemImgM includeItemImg_bottomDotM">
+                            <img src="/assets/img/mobile/ecologyTax.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="includeItemM includeItem_3M">
+                        <div class="includeItemImgM includeItemImg_topDotM">
+                            <img src="/assets/img/mobile/transfer.png" alt="img">
+                        </div>
+                        <div class="includeItemTitleM includeItem_3M">
+                            <span class = "wsnw">Трансфер из отеля</span><span class = "wsnw"> в пункт назначения</span>
+                        </div>
+                    </div>
+                    <div class="includeItemM includeItem_4M">                       
+                        <div class="includeItemImgM includeItemImg_topDotM">
+                            <img src="/assets/img/mobile/selfy.png" alt="img">
+                        </div>
+                        <div class="includeItemTitleM">
+                            <span class = "wsnw">Селфи на фоне</span><span class = "wsnw"> Изумрудного Озера</span>
+                        </div>
+                    </div>
                 </div>
 
-            </div>
-        </div>  
+                <div class="notIncludeBoxM">
+                    <div class="notIncludeTitleImgM">
+                        <img src="/assets/img/mobile/notIncludeFrame.png" alt="img">
+                    </div>
+                    <div class="notIncludeTitleM gradient-title-2">
+                        <span>Не Включено:</span>
+                    </div>
+                    <div class="notIncludeItemM notIncludeItem_1M">                       
+                        <div class="notIncludeItemImgM notIncludeItemImg_normDotM">
+                            <img src="/assets/img/mobile/noFood.png" alt="img">
+                        </div>
+                        <div class="notIncludeItemTitleM">
+                            <span class = "upper">Eда и вода</span>
+                        </div>
+                    </div>
+                    <div class="notIncludeItemM notIncludeItem_2M">                       
+                        <div class="notIncludeItemImgM notIncludeItemImg_badDotM">
+                            <img src="/assets/img/mobile/noShops.png" alt="img">
+                        </div>
+                        <div class="notIncludeItemTitleM">
+                            <span class="upper wsnw">Около озера нет</span><span class = "upper wsnw"> кафе и магазинов,</span><span class="fs0_7em">(есть маленькая кофейня на колесах)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inBasketM">
+                    <div class="inBasketLineM"></div>
+                    <div class="inBasketDotM"></div>
+                    <div class="inBasketTextM marginSideAddM">В корзину</div>
+                    <div class="inBasketAddM ">
+                        <a href="basket.php">
+                            <img src="assets/img/mobile/basketM.png" alt="img">
+                        </a>
+                    </div>
+                    <div class="inBasketDotM"></div>
+                    <div class="inBasketLineM"></div>
+                </div>
 
-</body>
+
+
+                <div class="sub-toursPhotosSliderBoxM">
+                    <div class="owl-slider owlSliderSub-tourPhotos">
+                        <div id="carousel_sub-toursPhotos" class="owl-carousel">
+                            <!----------------------------------------------------------------------------------->
+                            <div class="sub-toursPhotosSliderItem">                            
+                                <div class="sub-toursPhotoFrameM">
+                                    <div class="sub-toursPhotoImgM">
+                                        <img src="/assets/img/mobile/sub-tourPhoto1M.png" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <!----------------------------------------------------------------------------------->
+                            <div class="sub-toursPhotosSliderItem">                            
+                                <div class="sub-toursPhotoFrameM">
+                                    <div class="sub-toursPhotoImgM">
+                                        <img src="/assets/img/mobile/sub-tourPhoto2M.png" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <!----------------------------------------------------------------------------------->
+                            <div class="sub-toursPhotosSliderItem">                            
+                                <div class="sub-toursPhotoFrameM">
+                                    <div class="sub-toursPhotoImgM">
+                                        <img src="/assets/img/mobile/sub-tourPhoto1M.png" alt="img">
+                                    </div>
+                                </div>
+                            </div>                           
+                            <!----------------------------------------------------------------------------------->
+
+                        </div>
+                        </div class="sub-toursPhotosSliderBtnsM">
+                            <div class="next_owl">
+                                <a href="#"><img src="assets/img/rowToRight.png" alt="img"></a>
+                            </div>
+                            <div class="prev_owl">
+                                <a href="#"><img src="assets/img/rowToLeft.png" alt="img"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+
+        </body>
     </html>
 <?php include 'footer.php';?>

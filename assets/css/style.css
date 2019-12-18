@@ -5434,6 +5434,7 @@ height: 21.4em;
     -ms-user-select: none;       /* Internet Explorer/Edge */
     user-select: none;           /* Non-prefixed version, currently
                                  not supported by any browser */
+    color: transparent;
 }
 
 .line_long_about{
@@ -5743,6 +5744,7 @@ height: 21.4em;
     padding: 1.5em 2em 3em;
     box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.18);
     background-color: #ffffff;
+    margin-bottom: 5.5em;
 }
 .sub-toursInfoTextM{
     width: 100%;
@@ -5808,6 +5810,314 @@ height: 21.4em;
     margin-bottom: 1em;
 }
 
+.includeBoxM{
+    width: 100%;
+    height: 50em;
+    position: relative;
+    margin-bottom: 5em;
+}
+.includeTitleImgM{
+    width: 59.5%;
+    height: 24%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 49.7%;
+    left: 49.2%;
+}
+.includeTitleImgM img{
+    width: 100%;
+    height: 100%;
+}
+.includeTitleM{ 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 49%;
+}
+.includeTitleM span{
+    color: #000000;
+    font-family: "HelveticaThin";
+    font-size: 2.9em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.includeItemM{
+    width: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.includeItem_1M{
+    top: 15%;
+    left: 20%;
+}
+.includeItem_2M{
+    top: 15%;
+    right: -23.5%;   
+}
+.includeItem_3M{
+    bottom: -25%;
+    left: 20%    
+}
+.includeItem_4M{
+    bottom: -25%;
+    right: -23.5%;  
+}
+.includeItemTitleM{
+    color: #000000;
+    font-family: "HelveticaThin";
+    font-size: 2.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 1em 0em;
+}
+.wsnw{
+    white-space: nowrap;
+}
+.includeItemImgM{
+    width: 10em;
+    height: 10em;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.includeItemImgM:before{
+    content: '';
+    position: absolute;
+    width: calc(100% + 3em);
+    height: calc(100% + 3em);
+    top: -1.5em;
+    left: -1.5em;
+    border: 1px solid #4f4b1b;
+    border-radius: 50%;
+}
+.includeItemImg_bottomDotM:after{
+    content: '';
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: -2.5em;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.23);
+    background-color: #4f4b1b;
+    border-radius: 50%;
+}
+.includeItemImg_topDotM:after{
+    content: '';
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: -1.5em;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.23);
+    background-color: #4f4b1b;
+    border-radius: 50%;
+}
+.includeItemImgM img{
+    width: 60%;
+}
+
+
+
+.notIncludeBoxM{
+    width: 100%;
+    height: 33em;
+    position: relative;
+    margin-bottom: 4em;
+}
+.notIncludeTitleImgM{
+    width: 63%;
+    height: 28%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 0%;
+    left: 49.2%;
+}
+.notIncludeTitleImgM img{
+    width: 100%;
+    height: 100%;
+}
+.notIncludeTitleM{ 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 49%;
+}
+.notIncludeTitleM span{
+    color: #000000;
+    font-family: "HelveticaThin";
+    font-size: 2.9em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.notIncludeItemM{
+    width: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.notIncludeItem_1M{
+    top: 60%;
+    left: 18%;
+}
+.notIncludeItem_2M{
+    top: 71%;
+    right: -23.5%;   
+}
+
+.notIncludeItemTitleM{
+    color: #000000;
+    font-family: "HelveticaThin";
+    font-size: 2.5em;
+    font-weight: 400;
+    margin: 1em 0em;
+}
+.fs0_7em{
+    font-size: 0.7em;
+}
+.notIncludeItemImgM{
+    width: 10em;
+    height: 10em;
+    background-color: #524729;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.notIncludeItemImgM:before{
+    content: '';
+    position: absolute;
+    width: calc(100% + 3em);
+    height: calc(100% + 3em);
+    top: -1.5em;
+    left: -1.5em;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+.notIncludeItemImg_normDotM:after{
+    content: '';
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: -1.5em;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.23);
+    background-color: #4f4b1b;
+    border-radius: 50%;
+}
+.notIncludeItemImg_badDotM:after{
+    content: '';
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    top: -1.5em;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.23);
+    background-color: #4f4b1b;
+    border-radius: 50%;
+}
+
+.notIncludeItemImgM img{
+    width: 60%;
+}
+
+.inBasketM{
+    width: calc(100% + 3em);
+    position: relative;
+    left: -1.5em;
+    display: flex;
+    align-items: center;
+    margin: 4em 0 6em auto;
+}
+.inBasketLineM{
+    height: 1px;
+    width: 29%;
+    background-color: #babb90;
+}
+.inBasketDotM{
+    height: 1em;
+    width: 1em;
+    background-color: #babb90;
+}
+.inBasketTextM{
+    color: #000000;
+    font-family: "HelveticaThin";
+    font-size: 2.4em;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.inBasketAddM{
+    width: 8em;
+    height: 8em;
+    position: relative;
+    border-radius: 50%;
+    background-color: #524729;
+    margin: 0em 1.5em 0em 1.5em; 
+}
+.inBasketAddM img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 50%;
+}
+
+.marginSideAddM{
+    margin: 0 0.6em;
+}
+
+
+
+
+.sub-toursPhotosSliderBoxM{
+    width: 100%;
+}
+.owlSliderSub-tourPhotos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-toursPhotosSliderItem{
+    width: 28em;
+    height: 35em;
+    padding: 0em 2em 0em 2em;
+    display: flex;
+    justify-content: center;
+}
+.sub-toursPhotoFrameM{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    padding: 1em 1em 3em 1em;
+}
+.sub-toursPhotoImgM{
+    width: 100%;
+    height: 100%;
+}
+.sub-toursPhotoImgM{
+    width: 100%;
+}
+
+
+.sub-toursPhotosSliderBtnsM{
+    display: flex;
+    align-items: center;    
+}
 /*-----ARTICLE-OPEN-MOBILE-----*/
 
 

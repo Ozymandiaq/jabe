@@ -95,4 +95,30 @@ $(document).ready(function () {
         owl4.trigger('next.owl.carousel');
     });
 
+
+    //---------------------------------------------------------------------
+    var owl5 = $("#carousel_sub-toursPhotos");
+    owl5.owlCarousel({
+        items: 2,
+        loop:true,
+        pagination:false, navigation:false,dots:false,
+        // autoplay: true,
+        // autoplayTimeout: 3000,
+        // autoplayHoverPause: true,
+    });
+   
+    $('.next_owl').click(function (e) {        
+        e.preventDefault();
+        console.log('prev')
+        owl5.trigger('prev.owl.carousel', [300]);
+    });
+
+    $('.prev_owl').click(function (e) {    
+        e.preventDefault();
+        console.log('next')
+        owl5.trigger('next.owl.carousel');
+    });
+
 });
+
+
